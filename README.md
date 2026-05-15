@@ -1,10 +1,12 @@
 # Mehmet Turaç — `@mturac`
 
-I lead autonomous software work from product strategy to shipped systems.
+I lead product, engineering, and AI platform strategy from ambiguous direction to shipped systems.
 
 My work sits where agent demos usually collapse: product judgment, repository context,
 reviewer feedback, stateful execution, prompt contracts, memory, CI, and the quiet discipline of getting things merged.
 
+I have spent 25 years in software, with nearly 15 years leading or advising product, engineering,
+and strategy teams larger than 15 people.
 I think like a product owner, operate like a strategist, and stay technical enough to know where the system will break.
 I care about teams and agents that can take responsibility in real codebases, not just look impressive in a terminal.
 Mostly open source. Occasionally loud in Turkish.
@@ -22,6 +24,8 @@ Mostly open source. Occasionally loud in Turkish.
 
 #### Leadership mode
 
+- Leading product and engineering teams through ambiguity, delivery pressure, and architecture risk.
+- Advising multi-disciplinary teams where product direction, technical strategy, and execution discipline have to move together.
 - Turning fuzzy product direction into executable systems.
 - Seeing the strategy, user workflow, and failure mode in the same frame.
 - Choosing the next useful move when everyone else is still debating abstractions.
