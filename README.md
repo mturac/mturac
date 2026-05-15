@@ -1,11 +1,12 @@
 ### Mehmet Turaç — `@mturac`
 
-I build the operating layer for autonomous software work.
+I lead autonomous software work from product strategy to shipped systems.
 
-My work sits where agent demos usually collapse: repository context, reviewer feedback,
-stateful execution, prompt contracts, memory, CI, and the quiet discipline of getting things merged.
+My work sits where agent demos usually collapse: product judgment, repository context,
+reviewer feedback, stateful execution, prompt contracts, memory, CI, and the quiet discipline of getting things merged.
 
-I care about agents that can take responsibility in real codebases, not just look impressive in a terminal.
+I think like a product owner, operate like a strategist, and stay technical enough to know where the system will break.
+I care about teams and agents that can take responsibility in real codebases, not just look impressive in a terminal.
 Mostly open source. Occasionally loud in Turkish.
 
 ---
@@ -27,12 +28,22 @@ bug reproduction, focused patch, regression test, clean PR body, maintainer foll
 Recent work has touched agent tooling, Elastic ecosystem projects, Strapi, opencode-adjacent tools,
 and design/dev workflows. I prefer surgical fixes over noisy drive-by PRs.
 
-#### What I am unusually good at
+#### Leadership mode
 
+- Turning fuzzy product direction into executable systems.
+- Seeing the strategy, user workflow, and failure mode in the same frame.
+- Choosing the next useful move when everyone else is still debating abstractions.
+- Raising the bar without slowing the room down.
 - Turning vague bug reports into concrete failing cases.
 - Finding the smallest patch that a maintainer can actually review.
 - Building guardrails so agents do not silently improvise their way into production.
 - Staying with the boring part: CI, review comments, rework, and merge readiness.
+
+#### Research taste
+
+I come from a mathematical way of thinking: definitions first, invariants second, implementation third.
+I have written two mathematical papers, and that background still shapes how I design agent systems:
+formal enough to reason about, practical enough to ship.
 
 #### What I think about
 
@@ -44,7 +55,7 @@ The goal is simple and hard: agents that can survive contact with real repositor
 
 #### Stack
 
-`Rust` · `Go` · `TypeScript / Next.js` · `Python` · `.NET / C#` · `SQLite` · `MCP` · `LLM evaluation`
+`Product leadership` · `Technical strategy` · `Agent systems` · `Rust` · `Go` · `TypeScript / Next.js` · `Python` · `.NET / C#` · `SQLite` · `MCP` · `LLM evaluation`
 
 #### Elsewhere
 
