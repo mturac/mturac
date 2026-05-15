@@ -46,7 +46,7 @@ My research line connects product strategy with formal systems for AI agents:
 
 - **TeserracT** — policy-constrained stochastic control, type-level governance, and market economics for multi-tenant agent platforms.
 - **Miray Tesseractic Mathematics** — a semantic mathematics program for LLM meaning across geometry, energy, topology, type theory, memory, and human impact.
-- **Gated Persona Intelligence** — stability-controlled memory formation for LLM-based interactive systems.
+- **Gated Persona Intelligence** — stability-controlled persona memory for LLM systems; entropy gates, sigmoid smoothing, hysteresis, and deterministic cognitive state engines that reduce drift in long-running agent interactions.
 
 That background shapes how I design products: formal enough to reason about, practical enough to ship.
 
