@@ -1,4 +1,4 @@
-### Mehmet Turaç — `@mturac`
+# Mehmet Turaç — `@mturac`
 
 I lead autonomous software work from product strategy to shipped systems.
 
