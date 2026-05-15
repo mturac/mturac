@@ -1,9 +1,11 @@
 ### Mehmet Turaç — `@mturac`
 
-I build agent infrastructure for people who actually ship with autonomous tools.
+I build the operating layer for autonomous software work.
 
-My lane is the part where agents stop being demos and start carrying responsibility:
-review loops, schedulers, prompt contracts, memory, repo triage, and deterministic gates.
+My work sits where agent demos usually collapse: repository context, reviewer feedback,
+stateful execution, prompt contracts, memory, CI, and the quiet discipline of getting things merged.
+
+I care about agents that can take responsibility in real codebases, not just look impressive in a terminal.
 Mostly open source. Occasionally loud in Turkish.
 
 ---
@@ -19,8 +21,18 @@ Mostly open source. Occasionally loud in Turkish.
 
 #### Open source mode
 
-I like small, sharp patches: bug reproduction, focused fix, regression test, clean PR body, follow-up until merge.
-Recent work has been around agent tooling, Elastic ecosystem projects, Strapi, opencode-adjacent tools, and design/dev workflows.
+I run a small, stubborn OSS fix lab:
+bug reproduction, focused patch, regression test, clean PR body, maintainer follow-up, repeat.
+
+Recent work has touched agent tooling, Elastic ecosystem projects, Strapi, opencode-adjacent tools,
+and design/dev workflows. I prefer surgical fixes over noisy drive-by PRs.
+
+#### What I am unusually good at
+
+- Turning vague bug reports into concrete failing cases.
+- Finding the smallest patch that a maintainer can actually review.
+- Building guardrails so agents do not silently improvise their way into production.
+- Staying with the boring part: CI, review comments, rework, and merge readiness.
 
 #### What I think about
 
@@ -28,7 +40,7 @@ The interesting failures in agent systems are not capability gaps — they are a
 Agents do not push back on scope. Memories drift into summaries. Self-correction is theatre without external validators.
 I write infrastructure that turns those soft failures into hard ones: a council that has to vote, a scheduler that has to resume, a guard that has to read the contract before the agent ships.
 
-The goal is boringly serious: agents that can be trusted with real repositories, real tests, and real maintainer feedback.
+The goal is simple and hard: agents that can survive contact with real repositories, real tests, and real maintainers.
 
 #### Stack
 
