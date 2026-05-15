@@ -20,14 +20,6 @@ Mostly open source. Occasionally loud in Turkish.
 - 🧠 **[recall-mcp](https://github.com/mturac/recall-mcp)** — Shared brain for AI agents. SQLite-backed persistent memory over MCP.
 - 👵 **[moooom-claude](https://github.com/mturac/moooom-claude)** — 10 cultures of moms nagging your Claude Code to drink water and sit up straight.
 
-#### Open source mode
-
-I run a small, stubborn OSS fix lab:
-bug reproduction, focused patch, regression test, clean PR body, maintainer follow-up, repeat.
-
-Recent work has touched agent tooling, Elastic ecosystem projects, Strapi, opencode-adjacent tools,
-and design/dev workflows. I prefer surgical fixes over noisy drive-by PRs.
-
 #### Leadership mode
 
 - Turning fuzzy product direction into executable systems.
