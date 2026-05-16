@@ -24,6 +24,20 @@ Occasionally loud in Turkish.
 - 🛡️ **[promptguard](https://github.com/mturac/promptguard)** — Audits prompts as behavioral contracts. Pre-write guard for agents that ship code.
 - 🧠 **[recall-mcp](https://github.com/mturac/recall-mcp)** — Shared brain for AI agents. SQLite-backed persistent memory over MCP.
 - 👵 **[moooom-claude](https://github.com/mturac/moooom-claude)** — 10 cultures of moms nagging your Claude Code to drink water and sit up straight.
+- 🧰 **[pluginpool](https://github.com/mturac/pluginpool)** — Ten focused Claude Code plugins for everyday developer productivity. Each one is its own MIT-licensed repo: [commit-narrator](https://github.com/mturac/pluginpool-commit-narrator), [pr-storyteller](https://github.com/mturac/pluginpool-pr-storyteller), [test-gap](https://github.com/mturac/pluginpool-test-gap), [deps-doctor](https://github.com/mturac/pluginpool-deps-doctor), [env-lint](https://github.com/mturac/pluginpool-env-lint), [secret-guard](https://github.com/mturac/pluginpool-secret-guard), [standup-gen](https://github.com/mturac/pluginpool-standup-gen), [todo-harvest](https://github.com/mturac/pluginpool-todo-harvest), [flaky-detector](https://github.com/mturac/pluginpool-flaky-detector), [changelog-forge](https://github.com/mturac/pluginpool-changelog-forge). 89 hermetic tests · Python 3 stdlib only.
+
+#### Currently contributing to
+
+External projects I'm actively shipping PRs into — fixes, tests, docs, and feature work:
+
+- 🔧 **[nexu-io/open-design](https://github.com/nexu-io/open-design)** — design-tooling daemon. Largest external contribution surface lately: import-failure surfacing, manual edit tabs, Claude smoke-test stream wiring, and assorted reliability fixes.
+- 🌐 **[google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)** — Google's official Gemini terminal agent. CLI ergonomics fix (session-ID rendering) currently in review.
+- 🦙 **[ollama/ollama](https://github.com/ollama/ollama)** — local LLM runtime. Contributing fixes around model lifecycle and CLI ergonomics.
+- 🎬 **[nexu-io/looper](https://github.com/nexu-io/looper)** — sequencer for long-running agent loops. PR-merge-blocker UI, pause/unpause commands, timing-sensitive test relaxations.
+- 🧱 **[strapi/strapi](https://github.com/strapi/strapi)** — headless CMS. Small targeted fixes from real production usage.
+- 🧩 **opencode ecosystem** — [opencode.nvim](https://github.com/nickjvandyke/opencode.nvim), [opencode-manager](https://github.com/chriswritescode-dev/opencode-manager), [anomalyco/opencode](https://github.com/anomalyco/opencode). Editor + orchestration contributions for the OSS Claude-Code-alternative stack.
+- 🎓 **Claude Code skills ecosystem** — shepherded **recsys-pipeline-architect** into [vercel-labs/skills](https://github.com/vercel-labs/skills), [wshobson/agents](https://github.com/wshobson/agents), [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates), [github/awesome-copilot](https://github.com/github/awesome-copilot), [karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills), and ~15 other public skill registries — covering Western, Chinese, and Turkish-language Claude communities.
+- 🧱 **Smaller targeted PRs** — [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) (Gemini feed hook), [getpaseo/paseo](https://github.com/getpaseo/paseo), [floatpane/matcha](https://github.com/floatpane/matcha), [joernmht/lp2graph](https://github.com/joernmht/lp2graph), [tosin2013/mcp-adr-analysis-server](https://github.com/tosin2013/mcp-adr-analysis-server), [steipete/CodexBar](https://github.com/steipete/CodexBar), and other repos I depend on.
 
 #### Leadership mode
 
