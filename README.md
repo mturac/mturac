@@ -26,6 +26,10 @@ Occasionally loud in Turkish.
 - 👵 **[moooom-claude](https://github.com/mturac/moooom-claude)** — 10 cultures of moms nagging your Claude Code to drink water and sit up straight.
 - 🧰 **[pluginpool](https://github.com/mturac/pluginpool)** — Ten focused Claude Code plugins for everyday developer productivity. Each one is its own MIT-licensed repo: [commit-narrator](https://github.com/mturac/pluginpool-commit-narrator), [pr-storyteller](https://github.com/mturac/pluginpool-pr-storyteller), [test-gap](https://github.com/mturac/pluginpool-test-gap), [deps-doctor](https://github.com/mturac/pluginpool-deps-doctor), [env-lint](https://github.com/mturac/pluginpool-env-lint), [secret-guard](https://github.com/mturac/pluginpool-secret-guard), [standup-gen](https://github.com/mturac/pluginpool-standup-gen), [todo-harvest](https://github.com/mturac/pluginpool-todo-harvest), [flaky-detector](https://github.com/mturac/pluginpool-flaky-detector), [changelog-forge](https://github.com/mturac/pluginpool-changelog-forge). 89 hermetic tests · Python 3 stdlib only.
 
+#### Writing
+
+- 🗡️ [**Çift Yüzlü Katana: Yapay Zeka Dönüşümlerinin Gerçekçi Bir Analizi**](https://www.linkedin.com/pulse/%C3%A7ift-y%C3%BCzl%C3%BC-katana-yapay-zeka-d%C3%B6n%C3%BC%C5%9F%C3%BCmlerinin-ger%C3%A7ek%C3%A7i-bir-mehmet-turac-80h7f) — AI transformations realistic analysis. The 5 illusions that compound into expensive, fragile systems. (LinkedIn, 2026)
+
 #### Currently contributing to
 
 External projects I'm actively shipping PRs into — open, merged, or in review. All public, all linkable.
