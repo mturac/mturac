@@ -120,6 +120,8 @@ The goal is simple and hard: agents that can survive contact with real repositor
 - 𝕏 [@TuracTheThinker](https://x.com/TuracTheThinker)
 - ✍️ [Dev.to · TuracTheThinker](https://dev.to/turacthethinker)
 - 💼 [LinkedIn](https://www.linkedin.com/in/mehmetturac/)
+- 📄 [LinkedIn Articles](https://www.linkedin.com/in/mehmetturac/recent-activity/articles/)
+- 📊 [LinkedIn Documents](https://www.linkedin.com/in/mehmetturac/recent-activity/documents/)
 
 ---
 
