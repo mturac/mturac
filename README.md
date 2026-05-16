@@ -28,16 +28,51 @@ Occasionally loud in Turkish.
 
 #### Currently contributing to
 
-External projects I'm actively shipping PRs into — fixes, tests, docs, and feature work:
+External projects I'm actively shipping PRs into — open, merged, or in review. All public, all linkable.
 
-- 🔧 **[nexu-io/open-design](https://github.com/nexu-io/open-design)** — design-tooling daemon. Largest external contribution surface lately: import-failure surfacing, manual edit tabs, Claude smoke-test stream wiring, and assorted reliability fixes.
-- 🌐 **[google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)** — Google's official Gemini terminal agent. CLI ergonomics fix (session-ID rendering) currently in review.
-- 🦙 **[ollama/ollama](https://github.com/ollama/ollama)** — local LLM runtime. Contributing fixes around model lifecycle and CLI ergonomics.
+**Major OSS projects**
+
+- 🌐 **[google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)** — Google's official Gemini terminal agent. CLI ergonomics fix (session-ID rendering in resume messages).
+- 🦙 **[ollama/ollama](https://github.com/ollama/ollama)** — local LLM runtime. Docs fixes (GPU FAQ link, Linux context-length config) and a ggml LoongArch quantization source PR.
+- 🔎 **[elastic/elasticsearch](https://github.com/elastic/elasticsearch)** — ESQL `InvalidMappedField` equality metadata fix.
+- 📊 **[elastic/kibana](https://github.com/elastic/kibana)** — Fleet UI: use "Failed" label for failed integration status.
+- 📦 **[elastic/elastic-package](https://github.com/elastic/elastic-package)** — system-test query for ignored fields.
+- 🛰️ **[elastic/elastic-agent](https://github.com/elastic/elastic-agent)** — `os.Remove` error guards in symlink/marker/enrollment cleanup paths.
+- ☁️ **[cloudflare/wrangler-action](https://github.com/cloudflare/wrangler-action)** — docs: add missing install and build steps to the canonical example.
+- 🧱 **[strapi/strapi](https://github.com/strapi/strapi)** — four reliability fixes: review-workflows stages for unsaved locales, media-url refresh on replacement, null `adminUserOwner` in api-token service, and content-manager locale resolution for non-i18n delete paths.
+- 🛒 **[medusajs/medusa](https://github.com/medusajs/medusa)** — types fix: compound-word pluralization handling for uncountable suffixes.
+- 🛡️ **[open-webui/open-webui](https://github.com/open-webui/open-webui)** — null-check in `upload_image` to prevent crashes when SSRF protection blocks a fetch.
+- ☸️ **[kubestellar/console](https://github.com/kubestellar/console)** — store fix: use `make([]T, 0)` instead of `var x []T` for nil-safe JSON.
+- 🛂 **[envoyproxy/ai-gateway](https://github.com/envoyproxy/ai-gateway)** — per-backend HTTPRoute cluster-name handling.
+- 🤖 **[langgenius/dify](https://github.com/langgenius/dify)** — error class cleanup (removed unnecessary `| None` from typed error returns).
+- 🧠 **[cline/cline](https://github.com/cline/cline)** — reset mistake count on user turn.
+- 🤓 **[Aider-AI/aider](https://github.com/Aider-AI/aider)** — accept `model-settings-file` in benchmark mode.
+- 🚦 **[maximhq/bifrost](https://github.com/maximhq/bifrost)** — return proper 400 for schema parse errors.
+- 🔐 **[project-zot/zot](https://github.com/project-zot/zot)** — skip DynamoDB table creation when tables already exist.
+- 🐙 **[oraios/serena](https://github.com/oraios/serena)** — empty `projects` config-key handling.
+- 🎨 **[shadcn-ui/ui](https://github.com/shadcn-ui/ui)** — `shrink-0` fix on `base-luma SelectContent` so the component sizes correctly inside flex layouts.
+- ⚙️ **[actions/github-script](https://github.com/actions/github-script)** — feature: `working-directory` input to change script execution directory.
+- 🕷️ **[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)** — scraper fix: pass `fullPage` option to fire-engine request.
+- 🪐 **[HeyPuter/puter](https://github.com/HeyPuter/puter)** — added a Havas Agentic OS MCP spine integration.
+- ✨ **[refined-github/refined-github](https://github.com/refined-github/refined-github)** — fix on the most-downloaded GitHub UX-improvement extension.
+- 🧩 **[gfazioli/mantine-split-pane](https://github.com/gfazioli/mantine-split-pane)** — resizer fix: fire `onResizing` and `onResizeEnd` on double-click reset.
+
+**Claude Code / agent ecosystem**
+
+- 🧩 **opencode ecosystem** — [opencode.nvim](https://github.com/nickjvandyke/opencode.nvim) (edit-diff buffer cleanup, immediate interrupt commands), [opencode-manager](https://github.com/chriswritescode-dev/opencode-manager) (repo-action tooltips, config-refresh model-form preservation), and [anomalyco/opencode](https://github.com/anomalyco/opencode) (run-root cwd, hyphenated MCP tool-id normalization).
+- 🧰 **openclaw ecosystem** — [openclaw/openclaw](https://github.com/openclaw/openclaw) (pnpm baileys/libsignal git-deps, agent-runtime inheritance) and [openclaw/wacli](https://github.com/openclaw/wacli) (NativeFlowMessage button extraction).
+- 🛠️ **MCP ecosystem** — [tosin2013/mcp-adr-analysis-server](https://github.com/tosin2013/mcp-adr-analysis-server) (issue templates), [IN3PIRE/github-health-monitor-mcp](https://github.com/IN3PIRE/github-health-monitor-mcp) (clearer rate-limit errors).
+- 🪟 **Claude Code tooling** — [YishenTu/claudian](https://github.com/YishenTu/claudian) (recover from invalid settings JSON), [mksglu/context-mode](https://github.com/mksglu/context-mode) (atomic native-binary swap), [slopus/happy](https://github.com/slopus/happy) (missing-agent-key recovery), [steipete/CodexBar](https://github.com/steipete/CodexBar) (Kimi K2 provider note).
+- 🌀 **Agent infra** — [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) (install Gemini feed hook with BeforeTool), [getpaseo/paseo](https://github.com/getpaseo/paseo), [floatpane/matcha](https://github.com/floatpane/matcha), [recurram/recurram-zig](https://github.com/recurram/recurram-zig) (workflow-token permissions).
+
+**Heaviest external engagements**
+
+- 🔧 **[nexu-io/open-design](https://github.com/nexu-io/open-design)** — design-tooling daemon, largest external contribution surface (12+ merged + open PRs): zip import-failure surfacing, manual edit tabs, Claude smoke-test stream-json wiring, draw-overlay scroll, comment-marker alignment, picker hints, design-files panel grouping, memory-editor reveal, plugin-publish footer, and more.
 - 🎬 **[nexu-io/looper](https://github.com/nexu-io/looper)** — sequencer for long-running agent loops. PR-merge-blocker UI, pause/unpause commands, timing-sensitive test relaxations.
-- 🧱 **[strapi/strapi](https://github.com/strapi/strapi)** — headless CMS. Small targeted fixes from real production usage.
-- 🧩 **opencode ecosystem** — [opencode.nvim](https://github.com/nickjvandyke/opencode.nvim), [opencode-manager](https://github.com/chriswritescode-dev/opencode-manager), [anomalyco/opencode](https://github.com/anomalyco/opencode). Editor + orchestration contributions for the OSS Claude-Code-alternative stack.
-- 🎓 **Claude Code skills ecosystem** — shepherded **recsys-pipeline-architect** into [vercel-labs/skills](https://github.com/vercel-labs/skills), [wshobson/agents](https://github.com/wshobson/agents), [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates), [github/awesome-copilot](https://github.com/github/awesome-copilot), [karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills), and ~15 other public skill registries — covering Western, Chinese, and Turkish-language Claude communities.
-- 🧱 **Smaller targeted PRs** — [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) (Gemini feed hook), [getpaseo/paseo](https://github.com/getpaseo/paseo), [floatpane/matcha](https://github.com/floatpane/matcha), [joernmht/lp2graph](https://github.com/joernmht/lp2graph), [tosin2013/mcp-adr-analysis-server](https://github.com/tosin2013/mcp-adr-analysis-server), [steipete/CodexBar](https://github.com/steipete/CodexBar), and other repos I depend on.
+
+**Skills distribution**
+
+Authored **`recsys-pipeline-architect`** and shepherded it into ~25 public skill / agent registries spanning the Anglophone, Chinese, and Turkish Claude communities: [vercel-labs/skills](https://github.com/vercel-labs/skills), [wshobson/agents](https://github.com/wshobson/agents), [github/awesome-copilot](https://github.com/github/awesome-copilot), [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates), [karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills), [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills), [ComposioHQ/awesome-codex-skills](https://github.com/ComposioHQ/awesome-codex-skills), [RoggeOhta/awesome-codex-cli](https://github.com/RoggeOhta/awesome-codex-cli), [ikaijua/Awesome-AITools](https://github.com/ikaijua/Awesome-AITools), [Prat011/awesome-llm-skills](https://github.com/Prat011/awesome-llm-skills), [skillmatic-ai/awesome-agent-skills](https://github.com/skillmatic-ai/awesome-agent-skills), [heilcheng/awesome-agent-skills](https://github.com/heilcheng/awesome-agent-skills), [kodustech/awesome-agent-skills](https://github.com/kodustech/awesome-agent-skills), [libukai/awesome-agent-skills](https://github.com/libukai/awesome-agent-skills) (CN), [laolaoshiren/claude-code-skills-zh](https://github.com/laolaoshiren/claude-code-skills-zh) (CN), [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills), [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills), [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills), [rohitg00/awesome-claude-code-toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit), [jqueryscript/awesome-claude-code](https://github.com/jqueryscript/awesome-claude-code), [GetBindu/awesome-claude-code-and-skills](https://github.com/GetBindu/awesome-claude-code-and-skills), [spencerpauly/awesome-cursor-skills](https://github.com/spencerpauly/awesome-cursor-skills), [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice), [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills), [Chat2AnyLLM/awesome-repo-configs](https://github.com/Chat2AnyLLM/awesome-repo-configs), [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills), [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code), [gmh5225/awesome-skills](https://github.com/gmh5225/awesome-skills).
 
 #### Leadership mode
 
