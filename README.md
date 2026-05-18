@@ -1,17 +1,21 @@
 # Mehmet Turaç — `@mturac`
 
-I lead product, engineering, and AI platform strategy at the point where ambiguity becomes execution.
+I build the bridge between product judgment, engineering execution, and agentic systems that have to survive real production pressure.
 
 Over 25 years in software, I have led and advised product, engineering, and strategy teams through
 platform bets, architecture risk, organizational complexity, and delivery pressure. My work is not only
 about building systems; it is about deciding which systems are worth building, aligning people around
 them, and carrying them into production.
 
-I think like a product owner, operate like a strategist, and stay technical enough to know where the system will break.
-I care about teams and agents that can take responsibility in real codebases, not just look impressive in a terminal.
+I think like a product owner, operate like a strategist, and still stay close enough to the code to know where the system will break.
+That is the lane I like most: unclear problem, real users, brittle architecture, impatient timeline, no room for theatre.
 
 In 2026, while continuing my professional work, I made a deliberate turn back toward open source:
-to help public engineering teams, contribute to systems I respect, and make my judgment visible in the open.
+to help public engineering teams, contribute to systems I respect, and make my judgment visible in the open. I focus on
+small, reviewable patches in serious repositories: reliability fixes, edge-case handling, type safety, UI correctness,
+CI repair, and maintainer feedback loops.
+
+I care about teams and agents that can take responsibility in real codebases, not just look impressive in a terminal.
 Occasionally loud in Turkish.
 
 ---
@@ -50,6 +54,7 @@ Occasionally loud in Turkish.
 #### Currently contributing to
 
 External projects I'm actively shipping PRs into — open, merged, or in review. All public, all linkable.
+The pattern is simple: find a real bug, reduce it to a maintainer-sized patch, validate it, stay through review.
 
 **Major OSS projects**
 
@@ -61,24 +66,28 @@ External projects I'm actively shipping PRs into — open, merged, or in review.
 - 🛰️ **[elastic/elastic-agent](https://github.com/elastic/elastic-agent)** — `os.Remove` error guards in symlink/marker/enrollment cleanup paths.
 - ☁️ **[cloudflare/wrangler-action](https://github.com/cloudflare/wrangler-action)** — docs: add missing install and build steps to the canonical example.
 - 🧱 **[strapi/strapi](https://github.com/strapi/strapi)** — four reliability fixes: review-workflows stages for unsaved locales, media-url refresh on replacement, null `adminUserOwner` in api-token service, and content-manager locale resolution for non-i18n delete paths.
+- 📈 **[grafana/grafana](https://github.com/grafana/grafana)** — frontend reliability fixes across dashboard variables, logs, legends, query editors, and image-render export flows.
 - 🛒 **[medusajs/medusa](https://github.com/medusajs/medusa)** — types fix: compound-word pluralization handling for uncountable suffixes.
 - 🛡️ **[open-webui/open-webui](https://github.com/open-webui/open-webui)** — null-check in `upload_image` to prevent crashes when SSRF protection blocks a fetch.
 - ☸️ **[kubestellar/console](https://github.com/kubestellar/console)** — store fix: use `make([]T, 0)` instead of `var x []T` for nil-safe JSON.
 - 🛂 **[envoyproxy/ai-gateway](https://github.com/envoyproxy/ai-gateway)** — per-backend HTTPRoute cluster-name handling.
 - 🤖 **[langgenius/dify](https://github.com/langgenius/dify)** — error class cleanup (removed unnecessary `| None` from typed error returns).
-- 🧠 **[cline/cline](https://github.com/cline/cline)** — reset mistake count on user turn.
 - 🤓 **[Aider-AI/aider](https://github.com/Aider-AI/aider)** — accept `model-settings-file` in benchmark mode.
 - 🚦 **[maximhq/bifrost](https://github.com/maximhq/bifrost)** — return proper 400 for schema parse errors.
 - 🔐 **[project-zot/zot](https://github.com/project-zot/zot)** — skip DynamoDB table creation when tables already exist.
 - 🐙 **[oraios/serena](https://github.com/oraios/serena)** — empty `projects` config-key handling.
 - 🎨 **[shadcn-ui/ui](https://github.com/shadcn-ui/ui)** — `shrink-0` fix on `base-luma SelectContent` so the component sizes correctly inside flex layouts.
+- 🚀 **[raycast/extensions](https://github.com/raycast/extensions)** — productivity-extension fixes for Jira, VS Code recent projects, Google Workspace, 1Password, Sentry, Spotify, Browser Bookmarks, Git Repos, ccusage, and more.
 - ⚙️ **[actions/github-script](https://github.com/actions/github-script)** — feature: `working-directory` input to change script execution directory.
 - 🕷️ **[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)** — scraper fix: pass `fullPage` option to fire-engine request.
 - ✨ **[refined-github/refined-github](https://github.com/refined-github/refined-github)** — fix on the most-downloaded GitHub UX-improvement extension.
 - 🧩 **[gfazioli/mantine-split-pane](https://github.com/gfazioli/mantine-split-pane)** — resizer fix: fire `onResizing` and `onResizeEnd` on double-click reset.
 
-**Claude Code / agent ecosystem**
+**Agentic developer tools**
 
+- 🧠 **[cline/cline](https://github.com/cline/cline)** — VS Code and CLI agent fixes: completed-task resume state after hooks, command approval handling, context overflow detection, TLS opt-out handling, skill-picker render keys, settings/account setup flow, and config-view hook dependencies.
+- 🟣 **[Kilo-Org/kilocode](https://github.com/Kilo-Org/kilocode)** — CLI and VS Code agent fixes across permission docks, diff previews, export dialogs, startup migrations, paste summaries, offline model fetches, reasoning effort options, subagent prompts, autocomplete, and dependency-context filtering.
+- 🍒 **[CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)** — desktop AI client fixes for MCP structured content, cron/local-time tool responses, miniapp URL refresh, CherryIN provider aliasing, and thinking-segment stream handling.
 - 🧩 **opencode ecosystem** — [opencode.nvim](https://github.com/nickjvandyke/opencode.nvim) (edit-diff buffer cleanup, immediate interrupt commands), [opencode-manager](https://github.com/chriswritescode-dev/opencode-manager) (repo-action tooltips, config-refresh model-form preservation), and [anomalyco/opencode](https://github.com/anomalyco/opencode) (run-root cwd, hyphenated MCP tool-id normalization).
 - 🧰 **openclaw ecosystem** — [openclaw/openclaw](https://github.com/openclaw/openclaw) (pnpm baileys/libsignal git-deps, agent-runtime inheritance) and [openclaw/wacli](https://github.com/openclaw/wacli) (NativeFlowMessage button extraction).
 - 🛠️ **MCP ecosystem** — [tosin2013/mcp-adr-analysis-server](https://github.com/tosin2013/mcp-adr-analysis-server) (issue templates), [IN3PIRE/github-health-monitor-mcp](https://github.com/IN3PIRE/github-health-monitor-mcp) (clearer rate-limit errors).
@@ -105,6 +114,7 @@ Authored **`recsys-pipeline-architect`** and shepherded it into ~25 public skill
 - Raising the bar without slowing the room down.
 - Turning vague bug reports into concrete failing cases.
 - Finding the smallest patch that a maintainer can actually review.
+- Shipping the unglamorous layer that makes ambitious systems trustworthy: tests, migrations, edge cases, review fixes, and clean rollback paths.
 - Building guardrails so agents do not silently improvise their way into production.
 - Staying with the boring part: CI, review comments, rework, and merge readiness.
 
