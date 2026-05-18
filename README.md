@@ -74,7 +74,6 @@ External projects I'm actively shipping PRs into — open, merged, or in review.
 - 🎨 **[shadcn-ui/ui](https://github.com/shadcn-ui/ui)** — `shrink-0` fix on `base-luma SelectContent` so the component sizes correctly inside flex layouts.
 - ⚙️ **[actions/github-script](https://github.com/actions/github-script)** — feature: `working-directory` input to change script execution directory.
 - 🕷️ **[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)** — scraper fix: pass `fullPage` option to fire-engine request.
-- 🪐 **[HeyPuter/puter](https://github.com/HeyPuter/puter)** — added a Havas Agentic OS MCP spine integration.
 - ✨ **[refined-github/refined-github](https://github.com/refined-github/refined-github)** — fix on the most-downloaded GitHub UX-improvement extension.
 - 🧩 **[gfazioli/mantine-split-pane](https://github.com/gfazioli/mantine-split-pane)** — resizer fix: fire `onResizing` and `onResizeEnd` on double-click reset.
 
