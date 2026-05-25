@@ -79,9 +79,12 @@ The pattern is simple: find a real bug, reduce it to a maintainer-sized patch, v
 - 🎨 **[shadcn-ui/ui](https://github.com/shadcn-ui/ui)** — `shrink-0` fix on `base-luma SelectContent` so the component sizes correctly inside flex layouts.
 - 🚀 **[raycast/extensions](https://github.com/raycast/extensions)** — productivity-extension fixes for Jira, VS Code recent projects, Google Workspace, 1Password, Sentry, Spotify, Browser Bookmarks, Git Repos, ccusage, and more.
 - ⚙️ **[actions/github-script](https://github.com/actions/github-script)** — feature: `working-directory` input to change script execution directory.
+- 📦 **[pnpm/pnpm](https://github.com/pnpm/pnpm)** — package-manager reliability fixes: trusted-publisher provenance checks, non-root `resolutions` warnings, fish shell setup location, and complete global-update summaries.
+- 📚 **[pnpm/pnpm.io](https://github.com/pnpm/pnpm.io)** — docs fixes for version-pinned v11 examples and zsh completion setup.
 - 🕷️ **[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)** — scraper fix: pass `fullPage` option to fire-engine request.
 - ✨ **[refined-github/refined-github](https://github.com/refined-github/refined-github)** — fix on the most-downloaded GitHub UX-improvement extension.
 - 🧩 **[gfazioli/mantine-split-pane](https://github.com/gfazioli/mantine-split-pane)** — resizer fix: fire `onResizing` and `onResizeEnd` on double-click reset.
+- 📝 **[refactoringhq/tolaria](https://github.com/refactoringhq/tolaria)** — desktop markdown knowledge-base app fixes: responsive status-bar stacking, Kiro agent-target selection, and local-only git remote handling.
 
 **Agentic developer tools**
 
