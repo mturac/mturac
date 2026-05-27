@@ -22,6 +22,9 @@ Occasionally loud in Turkish.
 
 #### Currently shipping
 
+- 🔍 **[content-pulse](https://github.com/mturac/content-pulse)** — Semantic Decay & Freshness Engine for PayloadCMS v3. Detect stale dates and outdated version references before your readers do. 14/14 tests passing.
+- 🔍 **[contentpulse-strapi](https://github.com/mturac/contentpulse-strapi)** — ContentPulse for Strapi v5. Lifecycle hooks + admin widget for content freshness analysis.
+- 🔍 **[contentpulse-contentful](https://github.com/mturac/contentpulse-contentful)** — ContentPulse for Contentful. Sidebar app with Forma 36 design system integration.
 - 🪑 **[claude-roundtable](https://github.com/mturac/claude-roundtable)** — Multi-agent governance for Claude Code. Council deliberates, votes, dispatches, and enforces quality gates.
 - ⏱️ **[leyla-scheduler](https://github.com/mturac/leyla-scheduler)** — Durable, session-aware task scheduler in Rust. Jobs survive disconnects.
 - 🔎 **[skill-hunter](https://github.com/mturac/skill-hunter)** — Pre-execution layer that makes agents check for existing skills before building from scratch.
@@ -29,6 +32,11 @@ Occasionally loud in Turkish.
 - 🧠 **[recall-mcp](https://github.com/mturac/recall-mcp)** — Shared brain for AI agents. SQLite-backed persistent memory over MCP.
 - 👵 **[moooom-claude](https://github.com/mturac/moooom-claude)** — 10 cultures of moms nagging your Claude Code to drink water and sit up straight.
 - 🧰 **[pluginpool](https://github.com/mturac/pluginpool)** — Ten focused Claude Code plugins for everyday developer productivity. Each one is its own MIT-licensed repo: [commit-narrator](https://github.com/mturac/pluginpool-commit-narrator), [pr-storyteller](https://github.com/mturac/pluginpool-pr-storyteller), [test-gap](https://github.com/mturac/pluginpool-test-gap), [deps-doctor](https://github.com/mturac/pluginpool-deps-doctor), [env-lint](https://github.com/mturac/pluginpool-env-lint), [secret-guard](https://github.com/mturac/pluginpool-secret-guard), [standup-gen](https://github.com/mturac/pluginpool-standup-gen), [todo-harvest](https://github.com/mturac/pluginpool-todo-harvest), [flaky-detector](https://github.com/mturac/pluginpool-flaky-detector), [changelog-forge](https://github.com/mturac/pluginpool-changelog-forge). 89 hermetic tests · Python 3 stdlib only.
+
+#### Academic Papers
+
+- 📄 [OpenArXiv: 20260524.1](https://openarxiv.org/doc/20260524.1) — Research paper on agent systems and formal methods.
+- 📄 [OpenArXiv: 20260524.2](https://openarxiv.org/doc/20260524.2) — Research paper on semantic mathematics for LLM meaning.
 
 #### Writing
 
@@ -50,6 +58,8 @@ Occasionally loud in Turkish.
 - [I Got Access to 136 AI Models for Free — NVIDIA NIM API Deep Dive](https://dev.to/turacthethinker/i-got-access-to-136-ai-models-for-free-nvidia-nim-api-deep-dive-111o)
 - [Your Agent Isn't Reflecting. It's Performing Reflection.](https://dev.to/turacthethinker/your-agent-isnt-reflecting-its-performing-reflection-b41)
 - [How I Stopped My AI Agent From Reinventing the Wheel](https://dev.to/turacthethinker/how-i-stopped-my-ai-agent-from-reinventing-the-wheel-24eo)
+- [ContentPulse: Building a Semantic Decay Engine for Headless CMS](https://dev.to/turacthethinker/contentpulse-building-a-semantic-decay-engine-for-headless-cms)
+- [Multi-Model AI Orchestration: How I Use 15+ Free Models in My Workflow](https://dev.to/turacthethinker/multi-model-ai-orchestration-how-i-use-15-free-models-in-my-workflow)
 
 #### Currently contributing to
 
