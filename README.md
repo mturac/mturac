@@ -25,6 +25,8 @@ Occasionally loud in Turkish.
 - 🔍 **[content-pulse](https://github.com/mturac/content-pulse)** — Semantic Decay & Freshness Engine for PayloadCMS v3. Detect stale dates and outdated version references before your readers do. 14/14 tests passing.
 - 🔍 **[contentpulse-strapi](https://github.com/mturac/contentpulse-strapi)** — ContentPulse for Strapi v5. Lifecycle hooks + admin widget for content freshness analysis.
 - 🔍 **[contentpulse-contentful](https://github.com/mturac/contentpulse-contentful)** — ContentPulse for Contentful. Sidebar app with Forma 36 design system integration.
+- 👻 **[simulacra](https://github.com/mturac/simulacra)** — Ghost personas review your code before it ships. Find edge cases, race conditions, and business logic bugs before production.
+- 🧠 **[sparse-attention-viz](https://github.com/mturac/sparse-attention-viz)** — MiniMax-style Top-k sparse attention visualizer. CPU-only, no GPU required.
 - 🪑 **[claude-roundtable](https://github.com/mturac/claude-roundtable)** — Multi-agent governance for Claude Code. Council deliberates, votes, dispatches, and enforces quality gates.
 - ⏱️ **[leyla-scheduler](https://github.com/mturac/leyla-scheduler)** — Durable, session-aware task scheduler in Rust. Jobs survive disconnects.
 - 🔎 **[skill-hunter](https://github.com/mturac/skill-hunter)** — Pre-execution layer that makes agents check for existing skills before building from scratch.
@@ -45,21 +47,54 @@ Occasionally loud in Turkish.
 - 📄 [LinkedIn Articles](https://www.linkedin.com/in/mehmetturac/recent-activity/articles/) — All published articles
 - 📊 [LinkedIn Documents](https://www.linkedin.com/in/mehmetturac/recent-activity/documents/) — Research papers and technical documents
 
-**Dev.to**
+**Dev.to** — [All 39 Articles](https://dev.to/turacthethinker)
+
+***Scale Wars*** *— The Architectural Secrets of Tech Giants*
+- [Scale Wars — The Architectural Secrets of Tech Giants](https://dev.to/turacthethinker/scale-wars-the-architectural-secrets-of-tech-giants-2g4a)
+- [#1 Netflix: The Company That Killed the Monolith](https://dev.to/turacthethinker/scale-wars-1-netflix-the-company-that-killed-the-monolith-50d7)
+- [#2 Uber: How They Processed 100 Billion Events Per Day](https://dev.to/turacthethinker/scale-wars-2-uber-how-they-processed-100-billion-events-per-day-1cdb)
+- [#3 Amazon: Two-Pizza Teams and the SOA Manifesto](https://dev.to/turacthethinker/scale-wars-3-amazon-two-pizza-teams-and-the-soa-manifesto-15j7)
+- [#4 Airbnb: Data Mesh and the Death of the Central Data Team](https://dev.to/turacthethinker/scale-wars-4-airbnb-data-mesh-and-the-death-of-the-central-data-team-dn0)
+- [#5 Twitter: The Fan-out Pattern and the Architecture Behind 140 Characters](https://dev.to/turacthethinker/scale-wars-5-twitter-the-fan-out-pattern-and-the-architecture-behind-140-characters-bpg)
+- [#6 Spotify: The Squad Model and the Power of Golden Paths](https://dev.to/turacthethinker/scale-wars-6-spotify-the-squad-model-and-the-power-of-golden-paths-4poa)
+- [#7 What We Learned from the Giants (Series Finale)](https://dev.to/turacthethinker/scale-wars-7-what-we-learned-from-the-giants-series-finale-2d9f)
+
+***Back to Code*** *— A 15-Episode Technical Novel About Waking Up From the AI Illusion*
+- [I Wrote a 15-Episode Technical Novel About Waking Up From the AI Illusion](https://dev.to/turacthethinker/i-wrote-a-15-episode-technical-novel-about-waking-up-from-the-ai-illusion-2iee)
+- [Ep 01: The Invoice of Illusion and the Black Friday Crash](https://dev.to/turacthethinker/back-to-code-ep-01-the-invoice-of-illusion-and-the-black-friday-crash-5eec)
+- [Ep 02: Autopsy — The Lie That Looked Flawless](https://dev.to/turacthethinker/back-to-code-ep-02-autopsy-the-lie-that-looked-flawless-4llm)
+- [Ep 03: The Lost Craft — TDD and False Confidence](https://dev.to/turacthethinker/back-to-code-ep-03-the-lost-craft-tdd-and-false-confidence-4chi)
+- [Ep 04: Forgetting the Machine — Big O and the Performance Tax](https://dev.to/turacthethinker/back-to-code-ep-04-forgetting-the-machine-big-o-and-the-performance-tax-28bk)
+- [Ep 05: The Revenge of Context — DDD and Bounded Contexts](https://dev.to/turacthethinker/back-to-code-ep-05-the-revenge-of-context-ddd-and-bounded-contexts-1864)
+- [Ep 06: State Hell and Idempotency](https://dev.to/turacthethinker/back-to-code-ep-06-state-hell-and-idempotency-4166)
+- [Ep 07: The Lies of Mocks — Reality with Testcontainers](https://dev.to/turacthethinker/back-to-code-ep-07-the-lies-of-mocks-reality-with-testcontainers-28ao)
+- [Ep 08: The Illusion of Type Safety](https://dev.to/turacthethinker/back-to-code-ep-08-the-illusion-of-type-safety-3ddk)
+- [Ep 09: CI/CD Pipeline and Flaky Tests](https://dev.to/turacthethinker/back-to-code-ep-09-cicd-pipeline-and-flaky-tests-1m31)
+- [Ep 10: The Security Vulnerability Factory](https://dev.to/turacthethinker/back-to-code-ep-10-the-security-vulnerability-factory-a5g)
+- [Ep 11: The Legacy Code Mine — Strangler Fig Pattern](https://dev.to/turacthethinker/back-to-code-ep-11-the-legacy-code-mine-strangler-fig-pattern-2i9n)
+- [Ep 12: Observability — From Log Spaghetti to Traces](https://dev.to/turacthethinker/back-to-code-ep-12-observability-from-log-spaghetti-to-traces-54jg)
+- [Ep 13: Event-Driven Architecture — Kafka and the Async World](https://dev.to/turacthethinker/back-to-code-ep-13-event-driven-architecture-kafka-and-the-async-world-1f9p)
+- [Ep 14: Technical Debt Credit Score — Measuring the Unmeasurable](https://dev.to/turacthethinker/back-to-code-ep-14-technical-debt-credit-score-measuring-the-unmeasurable-42a3)
+- [Ep 15: The New Manifesto — Master and Apprentice (Season Finale)](https://dev.to/turacthethinker/back-to-code-ep-15-the-new-manifesto-master-and-apprentice-season-finale-4moo)
+
+***AI Agents & LLMs***
+- [eoc: Building the Operating System for OpenAI Codex — 230+ Skills, 60 Agents](https://dev.to/turacthethinker/ecc-building-the-operating-system-for-ai-coding-agents-230-skills-60-agents-cross-harness-39pc)
 - [Why AI Agents Fail?](https://dev.to/turacthethinker/why-ai-agents-fail-ddg)
+- [Your Agent Isn't Reflecting. It's Performing Reflection.](https://dev.to/turacthethinker/your-agent-isnt-reflecting-its-performing-reflection-b41)
+- [How I Stopped My AI Agent From Reinventing the Wheel](https://dev.to/turacthethinker/how-i-stopped-my-ai-agent-from-reinventing-the-wheel-24eo)
+- [Stop Your AI Agent From Building Tools That Already Exist](https://dev.to/turacthethinker/stop-your-ai-agent-from-building-tools-that-already-exist-6o9)
+- [Hermes vs OpenClaw: Which AI assistant would you actually trust?](https://dev.to/turacthethinker/hermes-vs-openclaw-which-ai-assistant-would-you-actually-trust-bbl)
+
+***LLM & Memory Systems***
+- [The Context Window Lie: Why Your LLM Remembers Nothing](https://dev.to/turacthethinker/the-context-window-lie-why-your-llm-remembers-nothing-5h1p)
+- [Why Versioned SQL Beats Vector RAG for Agent Memory Systems](https://dev.to/turacthethinker/why-versioned-sql-beats-vector-rag-for-agent-memory-systems-1jo3)
+- [Strategic LLM Adoption: A Director's Guide to Fine-Tuning Models](https://dev.to/turacthethinker/strategic-llm-adoption-a-directors-guide-to-fine-tuning-models-for-domain-specific-applications-4e37)
+- [I Got Access to 136 AI Models for Free — NVIDIA NIM API Deep Dive](https://dev.to/turacthethinker/i-got-access-to-136-ai-models-for-free-nvidia-nim-api-deep-dive-111o)
+
+***Software Engineering***
 - [We Ship to Production Without Tests. Here's How It Destroyed Us.](https://dev.to/turacthethinker/we-ship-to-production-without-tests-heres-how-it-destroyed-us-i4i)
 - [I built a product in one AI session. Here's the system that made it ship right.](https://dev.to/turacthethinker/i-built-a-product-in-one-ai-session-heres-the-system-that-made-it-ship-right-3mb3)
 - [Remote Work Didn't Break Productivity — It Broke Human Connection](https://dev.to/turacthethinker/remote-work-didnt-break-productivity-it-broke-human-connection-288o)
-- [Hermes vs OpenClaw: Which AI assistant would you actually trust?](https://dev.to/turacthethinker/hermes-vs-openclaw-which-ai-assistant-would-you-actually-trust-bbl)
-- [Strategic LLM Adoption: A Director's Guide to Fine-Tuning Models](https://dev.to/turacthethinker/strategic-llm-adoption-a-directors-guide-to-fine-tuning-models-for-domain-specific-applications-4e37)
-- [The Context Window Lie: Why Your LLM Remembers Nothing](https://dev.to/turacthethinker/the-context-window-lie-why-your-llm-remembers-nothing-5h1p)
-- [Stop Your AI Agent From Building Tools That Already Exist](https://dev.to/turacthethinker/stop-your-ai-agent-from-building-tools-that-already-exist-6o9)
-- [Why Versioned SQL Beats Vector RAG for Agent Memory Systems](https://dev.to/turacthethinker/why-versioned-sql-beats-vector-rag-for-agent-memory-systems-1jo3)
-- [I Got Access to 136 AI Models for Free — NVIDIA NIM API Deep Dive](https://dev.to/turacthethinker/i-got-access-to-136-ai-models-for-free-nvidia-nim-api-deep-dive-111o)
-- [Your Agent Isn't Reflecting. It's Performing Reflection.](https://dev.to/turacthethinker/your-agent-isnt-reflecting-its-performing-reflection-b41)
-- [How I Stopped My AI Agent From Reinventing the Wheel](https://dev.to/turacthethinker/how-i-stopped-my-ai-agent-from-reinventing-the-wheel-24eo)
-- [ContentPulse: Building a Semantic Decay Engine for Headless CMS](https://dev.to/turacthethinker/contentpulse-building-a-semantic-decay-engine-for-headless-cms)
-- [Multi-Model AI Orchestration: How I Use 15+ Free Models in My Workflow](https://dev.to/turacthethinker/multi-model-ai-orchestration-how-i-use-15-free-models-in-my-workflow)
 
 #### Currently contributing to
 
