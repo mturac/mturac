@@ -2,7 +2,7 @@
 
 I build the bridge between product judgment, engineering execution, and agentic systems that have to survive real production pressure.
 
-Over 25 years in software, I have led and advised product, engineering, and strategy teams through
+Over 15+ years in software, I have led and advised product, engineering, and strategy teams through
 platform bets, architecture risk, organizational complexity, and delivery pressure. My work is not only
 about building systems; it is about deciding which systems are worth building, aligning people around
 them, and carrying them into production.
