@@ -1,4 +1,15 @@
-# Mehmet Turaç — `@mturac`
+<h1 align="center">Mehmet Turaç · @mturac</h1>
+
+<p align="center">
+  <b>Product judgment · engineering execution · agentic systems under production pressure</b>
+</p>
+
+<p align="center">
+  <a href="https://github.com/microsoft/playwright/pull/41292"><img alt="Playwright merged" src="https://img.shields.io/badge/Playwright-merged-2ea44f?style=for-the-badge"></a>
+  <a href="https://github.com/raycast/extensions"><img alt="Raycast extensions" src="https://img.shields.io/badge/Raycast-multiple%20merges-ff6363?style=for-the-badge"></a>
+  <a href="https://github.com/nexu-io/open-design"><img alt="OpenDesign queue" src="https://img.shields.io/badge/OpenDesign-heavy%20PR%20queue-7c3aed?style=for-the-badge"></a>
+  <a href="https://github.com/browser-use/browser-use"><img alt="Browser agents" src="https://img.shields.io/badge/Browser%20agents-in%20review-2563eb?style=for-the-badge"></a>
+</p>
 
 I build the bridge between product judgment, engineering execution, and agentic systems that have to survive real production pressure.
 
@@ -20,19 +31,21 @@ Occasionally loud in Turkish.
 
 ---
 
-#### Recent open-source scoreboard
+#### June 2026 OSS sprint
 
-June 2026 has been a deliberate public-contribution sprint: small patches, real review queues, no drive-by theatre.
+Small patches, serious repositories, real review queues. The point is not volume for its own sake; it is maintainer-sized fixes that survive CI, review, and production-grade expectations.
 
-- 🎭 **[microsoft/playwright#41292](https://github.com/microsoft/playwright/pull/41292)** — merged: kept GitHub annotations parseable with the dot reporter.
-- 🚀 **[raycast/extensions](https://github.com/raycast/extensions)** — multiple recent merges across GitLab, Apple Reminders, Agent Usage, Music, 1Password, Apple Mail, Windows Terminal, and VS Code recent-project workflows.
-- 🧠 **[nexu-io/open-design](https://github.com/nexu-io/open-design)** — still the largest ongoing external surface: ACP session reuse, provider endpoint handling, localized automation UI, execution-card layout, and review follow-through.
-- 🌐 **[browser-use/browser-use](https://github.com/browser-use/browser-use)** — browser-agent reliability work in review: remote session lifetime, video artifact exposure, and structured tool-call parsing.
-- 🧰 **[modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)** — MCP server polish in review: runtime dependency correctness and filesystem search semantics.
-- 🧱 **[twbs/bootstrap](https://github.com/twbs/bootstrap)** — Bootstrap docs/Sass fixes in review: carousel API wording and list-group action colors.
-- ⚡ **[maximhq/bifrost](https://github.com/maximhq/bifrost)**, **[OpenHands](https://github.com/OpenHands/OpenHands)**, **[ollama](https://github.com/ollama/ollama)**, **[strapi](https://github.com/strapi/strapi)**, and **[vercel/edge-runtime](https://github.com/vercel/edge-runtime)** — smaller reliability patches moving through maintainer queues.
+| Signal | Where | What landed or is moving |
+|---|---|---|
+| 🎭 First Playwright merge | [microsoft/playwright#41292](https://github.com/microsoft/playwright/pull/41292) | Kept GitHub annotations parseable with the dot reporter. |
+| 🚀 Merge streak | [raycast/extensions](https://github.com/raycast/extensions) | GitLab, Apple Reminders, Agent Usage, Music, 1Password, Apple Mail, Windows Terminal, VS Code recent projects, and more. |
+| 🧠 Deep review surface | [nexu-io/open-design](https://github.com/nexu-io/open-design) | ACP session reuse, provider endpoint handling, localized automation UI, execution-card layout, review follow-through. |
+| 🌐 Browser-agent reliability | [browser-use/browser-use](https://github.com/browser-use/browser-use) | Remote session lifetime, video artifact exposure, structured tool-call parsing. |
+| 🧰 Protocol tooling | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | Runtime dependency correctness and filesystem search semantics. |
+| 🧱 Frontend infrastructure | [twbs/bootstrap](https://github.com/twbs/bootstrap), [vercel/edge-runtime](https://github.com/vercel/edge-runtime) | Bootstrap docs/Sass polish and edge cookie parsing behavior. |
+| ⚡ Maintainer queues | [bifrost](https://github.com/maximhq/bifrost), [OpenHands](https://github.com/OpenHands/OpenHands), [ollama](https://github.com/ollama/ollama), [strapi](https://github.com/strapi/strapi) | Smaller reliability patches moving through review. |
 
-Private labs are active too: OSS scouting/factory systems, research automation, and contribution-quality gates that make the public work sharper.
+Private labs are active too: OSS scouting/factory systems, research automation, and contribution-quality gates that make the public work sharper without turning the profile into a private-link graveyard.
 
 #### Currently shipping
 
