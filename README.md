@@ -5,14 +5,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/microsoft/playwright/pull/41292"><img alt="Playwright merged" src="https://img.shields.io/badge/Playwright-merged-2ea44f?style=for-the-badge"></a>
-  <a href="https://github.com/raycast/extensions"><img alt="Raycast extensions" src="https://img.shields.io/badge/Raycast-multiple%20merges-ff6363?style=for-the-badge"></a>
-  <a href="https://github.com/nexu-io/open-design"><img alt="OpenDesign queue" src="https://img.shields.io/badge/OpenDesign-heavy%20PR%20queue-7c3aed?style=for-the-badge"></a>
-  <a href="https://github.com/browser-use/browser-use"><img alt="Browser agents" src="https://img.shields.io/badge/Browser%20agents-in%20review-2563eb?style=for-the-badge"></a>
+  <a href="https://github.com/microsoft/playwright/pull/41292"><img alt="Playwright dot reporter" src="https://img.shields.io/badge/Playwright-dot%20reporter-2ea44f?style=for-the-badge"></a>
+  <a href="https://github.com/raycast/extensions"><img alt="Raycast extension fixes" src="https://img.shields.io/badge/Raycast-extension%20fixes-ff6363?style=for-the-badge"></a>
+  <a href="https://github.com/nexu-io/open-design"><img alt="OpenDesign ACP work" src="https://img.shields.io/badge/OpenDesign-ACP%20%2B%20UI-7c3aed?style=for-the-badge"></a>
+  <a href="https://github.com/browser-use/browser-use"><img alt="Browser agent reliability" src="https://img.shields.io/badge/Browser%20agents-reliability-2563eb?style=for-the-badge"></a>
 </p>
 
 <p align="center">
-  <img alt="June 2026 OSS sprint visual" src="./assets/oss-sprint.svg">
+  <img alt="Open-source maintenance visual" src="./assets/oss-sprint.svg">
 </p>
 
 I build the bridge between product judgment, engineering execution, and agentic systems that have to survive real production pressure.
@@ -35,21 +35,21 @@ Occasionally loud in Turkish.
 
 ---
 
-#### June 2026 OSS sprint
+#### Open-source notes
 
-Small patches, serious repositories, real review queues. The point is not volume for its own sake; it is maintainer-sized fixes that survive CI, review, and production-grade expectations.
+Small patches, serious repositories. The point is not volume for its own sake; it is maintainer-sized fixes with clear behavior, focused validation, and respectful review follow-through.
 
-| Signal | Where | What landed or is moving |
+| Area | Where | Work |
 |---|---|---|
-| 🎭 First Playwright merge | [microsoft/playwright#41292](https://github.com/microsoft/playwright/pull/41292) | Kept GitHub annotations parseable with the dot reporter. |
-| 🚀 Merge streak | [raycast/extensions](https://github.com/raycast/extensions) | GitLab, Apple Reminders, Agent Usage, Music, 1Password, Apple Mail, Windows Terminal, VS Code recent projects, and more. |
-| 🧠 Deep review surface | [nexu-io/open-design](https://github.com/nexu-io/open-design) | ACP session reuse, provider endpoint handling, localized automation UI, execution-card layout, review follow-through. |
-| 🌐 Browser-agent reliability | [browser-use/browser-use](https://github.com/browser-use/browser-use) | Remote session lifetime, video artifact exposure, structured tool-call parsing. |
-| 🧰 Protocol tooling | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | Runtime dependency correctness and filesystem search semantics. |
-| 🧱 Frontend infrastructure | [twbs/bootstrap](https://github.com/twbs/bootstrap), [vercel/edge-runtime](https://github.com/vercel/edge-runtime) | Bootstrap docs/Sass polish and edge cookie parsing behavior. |
-| ⚡ Maintainer queues | [bifrost](https://github.com/maximhq/bifrost), [OpenHands](https://github.com/OpenHands/OpenHands), [ollama](https://github.com/ollama/ollama), [strapi](https://github.com/strapi/strapi) | Smaller reliability patches moving through review. |
+| Browser automation | [microsoft/playwright#41292](https://github.com/microsoft/playwright/pull/41292) | Dot reporter GitHub annotations stayed parseable. |
+| Productivity extensions | [raycast/extensions](https://github.com/raycast/extensions) | Focused fixes across GitLab, Apple Reminders, Agent Usage, Music, 1Password, Apple Mail, Windows Terminal, and VS Code recent projects. |
+| Design tooling | [nexu-io/open-design](https://github.com/nexu-io/open-design) | ACP session reuse, provider endpoint handling, localized automation UI, execution-card layout, and review follow-through. |
+| Browser-agent reliability | [browser-use/browser-use](https://github.com/browser-use/browser-use) | Remote session lifetime, video artifact exposure, and structured tool-call parsing. |
+| Protocol tooling | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | Runtime dependency correctness and filesystem search semantics. |
+| Frontend infrastructure | [twbs/bootstrap](https://github.com/twbs/bootstrap), [vercel/edge-runtime](https://github.com/vercel/edge-runtime) | Bootstrap docs/Sass polish and edge cookie parsing behavior. |
+| Reliability fixes | [bifrost](https://github.com/maximhq/bifrost), [OpenHands](https://github.com/OpenHands/OpenHands), [ollama](https://github.com/ollama/ollama), [strapi](https://github.com/strapi/strapi) | Small patches with narrow behavior and clear validation. |
 
-Private labs are active too: OSS scouting/factory systems, research automation, and contribution-quality gates that make the public work sharper without turning the profile into a private-link graveyard.
+Private labs are active too: OSS scouting/factory systems, research automation, and contribution-quality gates that make the public work sharper without turning the profile into a list of private links.
 
 #### Builder shelf
 
@@ -206,7 +206,7 @@ The public repo shelf has two personalities: practical utilities that solve anno
 
 #### Currently contributing to
 
-External projects I'm actively shipping PRs into — open, merged, or in review. All public, all linkable.
+External projects I have been shipping public PRs into. All public, all linkable.
 The pattern is simple: find a real bug, reduce it to a maintainer-sized patch, validate it, stay through review.
 
 | Contribution lane | Repositories |
@@ -258,7 +258,7 @@ The pattern is simple: find a real bug, reduce it to a maintainer-sized patch, v
 
 - 🌐 **[browser-use/browser-use](https://github.com/browser-use/browser-use)** — browser-agent reliability patches around remote session lifetime, video artifacts, and structured tool-call parsing.
 - 🧰 **[modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)** — runtime dependency and filesystem-tool behavior fixes for official MCP servers.
-- 🧪 **[OpenHands/OpenHands](https://github.com/OpenHands/OpenHands)** — enterprise and repository-search fixes moving through review.
+- 🧪 **[OpenHands/OpenHands](https://github.com/OpenHands/OpenHands)** — enterprise and repository-search reliability fixes.
 - 🧠 **[cline/cline](https://github.com/cline/cline)** — VS Code and CLI agent fixes: completed-task resume state after hooks, command approval handling, context overflow detection, TLS opt-out handling, skill-picker render keys, settings/account setup flow, and config-view hook dependencies.
 - 🟣 **[Kilo-Org/kilocode](https://github.com/Kilo-Org/kilocode)** — CLI and VS Code agent fixes across permission docks, diff previews, export dialogs, startup migrations, paste summaries, offline model fetches, reasoning effort options, subagent prompts, autocomplete, and dependency-context filtering.
 - 🍒 **[CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)** — desktop AI client fixes for MCP structured content, cron/local-time tool responses, miniapp URL refresh, CherryIN provider aliasing, and thinking-segment stream handling.

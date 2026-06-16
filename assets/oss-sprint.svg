@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="360" viewBox="0 0 1100 360" role="img" aria-labelledby="title desc">
-  <title id="title">June 2026 open source sprint</title>
-  <desc id="desc">A visual summary of recent open source contribution lanes: Playwright merge, Raycast merge streak, OpenDesign review surface, browser-agent reliability, and protocol tooling.</desc>
+  <title id="title">Open-source maintenance notes</title>
+  <desc id="desc">A visual summary of open-source contribution lanes: browser automation, productivity extensions, design tooling, browser-agent reliability, and protocol tooling.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
       <stop offset="0%" stop-color="#0f172a"/>
@@ -29,35 +29,35 @@
   <rect width="1100" height="360" rx="28" fill="url(#bg)"/>
   <path d="M0 252 C170 180 240 342 410 268 C590 190 650 80 845 142 C990 188 1025 92 1100 58 L1100 360 L0 360 Z" fill="#312e81" opacity="0.36"/>
   <path d="M78 94 H402" stroke="url(#accent)" stroke-width="5" stroke-linecap="round"/>
-  <text x="78" y="72" class="kicker">PUBLIC CONTRIBUTION SPRINT</text>
-  <text x="78" y="130" class="title">Small patches. Serious repos.</text>
-  <text x="78" y="162" class="sub">Maintainer-sized fixes moving through merge queues, CI, and review.</text>
+  <text x="78" y="72" class="kicker">OPEN-SOURCE MAINTENANCE NOTES</text>
+  <text x="78" y="130" class="title">Small fixes, sharp edges.</text>
+  <text x="78" y="162" class="sub">Focused work across browser automation, product extensions, design tools, and protocol infra.</text>
 
   <g transform="translate(748 56)">
     <rect width="276" height="112" rx="22" fill="#020617" opacity="0.66" filter="url(#softShadow)"/>
-    <text x="28" y="46" class="metric">1st</text>
-    <text x="83" y="43" class="cardTitle">Playwright merge</text>
-    <text x="28" y="76" class="cardText">GitHub annotations kept parseable</text>
+    <text x="28" y="46" class="metric">OSS</text>
+    <text x="104" y="43" class="cardTitle">maintenance</text>
+    <text x="28" y="76" class="cardText">Small, reviewable fixes in real repos</text>
   </g>
 
   <g transform="translate(78 214)">
     <rect width="220" height="96" rx="18" fill="#0f172a" opacity="0.82" stroke="#334155"/>
-    <text x="22" y="37" class="label">MERGE STREAK</text>
-    <text x="22" y="66" class="cardTitle">Raycast extensions</text>
+    <text x="22" y="37" class="label">BROWSER AUTOMATION</text>
+    <text x="22" y="66" class="cardTitle">Playwright</text>
   </g>
   <g transform="translate(322 214)">
     <rect width="220" height="96" rx="18" fill="#0f172a" opacity="0.82" stroke="#334155"/>
-    <text x="22" y="37" class="label">DEEP SURFACE</text>
-    <text x="22" y="66" class="cardTitle">OpenDesign</text>
+    <text x="22" y="37" class="label">PRODUCTIVITY</text>
+    <text x="22" y="66" class="cardTitle">Raycast</text>
   </g>
   <g transform="translate(566 214)">
     <rect width="220" height="96" rx="18" fill="#0f172a" opacity="0.82" stroke="#334155"/>
-    <text x="22" y="37" class="label">BROWSER AGENTS</text>
-    <text x="22" y="66" class="cardTitle">Reliability PRs</text>
+    <text x="22" y="37" class="label">DESIGN TOOLING</text>
+    <text x="22" y="66" class="cardTitle">OpenDesign</text>
   </g>
   <g transform="translate(810 214)">
     <rect width="220" height="96" rx="18" fill="#0f172a" opacity="0.82" stroke="#334155"/>
-    <text x="22" y="37" class="label">PROTOCOL TOOLS</text>
-    <text x="22" y="66" class="cardTitle">MCP servers</text>
+    <text x="22" y="37" class="label">AGENT INFRA</text>
+    <text x="22" y="66" class="cardTitle">MCP + browser</text>
   </g>
 </svg>
