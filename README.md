@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img alt="Open-source maintenance visual" src="./assets/oss-sprint.svg">
+  <img alt="Open-source maintenance visual" src="./assets/oss-maintenance.svg">
 </p>
 
 I build the bridge between product judgment, engineering execution, and agentic systems that have to survive real production pressure.
@@ -223,7 +223,7 @@ The pattern is simple: find a real bug, reduce it to a maintainer-sized patch, v
 
 **Major OSS projects**
 
-- 🎭 **[microsoft/playwright](https://github.com/microsoft/playwright)** — first merged Playwright contribution: kept GitHub annotations parseable with the dot reporter.
+- 🎭 **[microsoft/playwright](https://github.com/microsoft/playwright)** — dot reporter fix for parseable GitHub annotations.
 - 🌐 **[google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)** — Google's official Gemini terminal agent. CLI ergonomics fix (session-ID rendering in resume messages).
 - 🦙 **[ollama/ollama](https://github.com/ollama/ollama)** — local LLM runtime. Docs fixes (GPU FAQ link, Linux context-length config) and a ggml LoongArch quantization source PR.
 - 🔎 **[elastic/elasticsearch](https://github.com/elastic/elasticsearch)** — ESQL `InvalidMappedField` equality metadata fix.
