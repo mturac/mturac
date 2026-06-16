@@ -5,14 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/microsoft/playwright/pull/41292"><img alt="Playwright dot reporter" src="https://img.shields.io/badge/Playwright-dot%20reporter-2ea44f?style=for-the-badge"></a>
-  <a href="https://github.com/raycast/extensions"><img alt="Raycast extension fixes" src="https://img.shields.io/badge/Raycast-extension%20fixes-ff6363?style=for-the-badge"></a>
-  <a href="https://github.com/nexu-io/open-design"><img alt="OpenDesign ACP work" src="https://img.shields.io/badge/OpenDesign-ACP%20%2B%20UI-7c3aed?style=for-the-badge"></a>
-  <a href="https://github.com/browser-use/browser-use"><img alt="Browser agent reliability" src="https://img.shields.io/badge/Browser%20agents-reliability-2563eb?style=for-the-badge"></a>
-</p>
-
-<p align="center">
-  <img alt="Open-source maintenance visual" src="./assets/oss-maintenance.svg">
+  <img alt="Mehmet Turac profile visual" src="./assets/oss-maintenance.svg">
 </p>
 
 I build the bridge between product judgment, engineering execution, and agentic systems that have to survive real production pressure.
@@ -35,19 +28,9 @@ Occasionally loud in Turkish.
 
 ---
 
-#### Open-source notes
+#### Open-source posture
 
-Small patches, serious repositories. The point is not volume for its own sake; it is maintainer-sized fixes with clear behavior, focused validation, and respectful review follow-through.
-
-| Area | Where | Work |
-|---|---|---|
-| Browser automation | [microsoft/playwright#41292](https://github.com/microsoft/playwright/pull/41292) | Dot reporter GitHub annotations stayed parseable. |
-| Productivity extensions | [raycast/extensions](https://github.com/raycast/extensions) | Focused fixes across GitLab, Apple Reminders, Agent Usage, Music, 1Password, Apple Mail, Windows Terminal, and VS Code recent projects. |
-| Design tooling | [nexu-io/open-design](https://github.com/nexu-io/open-design) | ACP session reuse, provider endpoint handling, localized automation UI, execution-card layout, and review follow-through. |
-| Browser-agent reliability | [browser-use/browser-use](https://github.com/browser-use/browser-use) | Remote session lifetime, video artifact exposure, and structured tool-call parsing. |
-| Protocol tooling | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | Runtime dependency correctness and filesystem search semantics. |
-| Frontend infrastructure | [twbs/bootstrap](https://github.com/twbs/bootstrap), [vercel/edge-runtime](https://github.com/vercel/edge-runtime) | Bootstrap docs/Sass polish and edge cookie parsing behavior. |
-| Reliability fixes | [bifrost](https://github.com/maximhq/bifrost), [OpenHands](https://github.com/OpenHands/OpenHands), [ollama](https://github.com/ollama/ollama), [strapi](https://github.com/strapi/strapi) | Small patches with narrow behavior and clear validation. |
+I like public work that is small enough to review and real enough to matter: a failing edge case, a clearer contract, a safer default, a cleaner UI path, a less fragile test. Specific repositories and PR surfaces are listed further down; the top of the profile is just the operating thesis.
 
 Private labs are active too: OSS scouting/factory systems, research automation, and contribution-quality gates that make the public work sharper without turning the profile into a list of private links.
 
