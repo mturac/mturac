@@ -20,6 +20,20 @@ Occasionally loud in Turkish.
 
 ---
 
+#### Recent open-source scoreboard
+
+June 2026 has been a deliberate public-contribution sprint: small patches, real review queues, no drive-by theatre.
+
+- 🎭 **[microsoft/playwright#41292](https://github.com/microsoft/playwright/pull/41292)** — merged: kept GitHub annotations parseable with the dot reporter.
+- 🚀 **[raycast/extensions](https://github.com/raycast/extensions)** — multiple recent merges across GitLab, Apple Reminders, Agent Usage, Music, 1Password, Apple Mail, Windows Terminal, and VS Code recent-project workflows.
+- 🧠 **[nexu-io/open-design](https://github.com/nexu-io/open-design)** — still the largest ongoing external surface: ACP session reuse, provider endpoint handling, localized automation UI, execution-card layout, and review follow-through.
+- 🌐 **[browser-use/browser-use](https://github.com/browser-use/browser-use)** — browser-agent reliability work in review: remote session lifetime, video artifact exposure, and structured tool-call parsing.
+- 🧰 **[modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)** — MCP server polish in review: runtime dependency correctness and filesystem search semantics.
+- 🧱 **[twbs/bootstrap](https://github.com/twbs/bootstrap)** — Bootstrap docs/Sass fixes in review: carousel API wording and list-group action colors.
+- ⚡ **[maximhq/bifrost](https://github.com/maximhq/bifrost)**, **[OpenHands](https://github.com/OpenHands/OpenHands)**, **[ollama](https://github.com/ollama/ollama)**, **[strapi](https://github.com/strapi/strapi)**, and **[vercel/edge-runtime](https://github.com/vercel/edge-runtime)** — smaller reliability patches moving through maintainer queues.
+
+Private labs are active too: OSS scouting/factory systems, research automation, and contribution-quality gates that make the public work sharper.
+
 #### Currently shipping
 
 - 🔍 **[content-pulse](https://github.com/mturac/content-pulse)** — Semantic Decay & Freshness Engine for PayloadCMS v3. Detect stale dates and outdated version references before your readers do. 14/14 tests passing.
@@ -146,6 +160,7 @@ The pattern is simple: find a real bug, reduce it to a maintainer-sized patch, v
 
 **Major OSS projects**
 
+- 🎭 **[microsoft/playwright](https://github.com/microsoft/playwright)** — first merged Playwright contribution: kept GitHub annotations parseable with the dot reporter.
 - 🌐 **[google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)** — Google's official Gemini terminal agent. CLI ergonomics fix (session-ID rendering in resume messages).
 - 🦙 **[ollama/ollama](https://github.com/ollama/ollama)** — local LLM runtime. Docs fixes (GPU FAQ link, Linux context-length config) and a ggml LoongArch quantization source PR.
 - 🔎 **[elastic/elasticsearch](https://github.com/elastic/elasticsearch)** — ESQL `InvalidMappedField` equality metadata fix.
@@ -167,6 +182,8 @@ The pattern is simple: find a real bug, reduce it to a maintainer-sized patch, v
 - 🎨 **[shadcn-ui/ui](https://github.com/shadcn-ui/ui)** — `shrink-0` fix on `base-luma SelectContent` so the component sizes correctly inside flex layouts.
 - 🚀 **[raycast/extensions](https://github.com/raycast/extensions)** — productivity-extension fixes for Jira, VS Code recent projects, Google Workspace, 1Password, Sentry, Spotify, Browser Bookmarks, Git Repos, ccusage, and more.
 - ⚙️ **[actions/github-script](https://github.com/actions/github-script)** — feature: `working-directory` input to change script execution directory.
+- 🧱 **[twbs/bootstrap](https://github.com/twbs/bootstrap)** — docs and Sass fixes for carousel API wording and list-group action colors.
+- 🌐 **[vercel/edge-runtime](https://github.com/vercel/edge-runtime)** — cookie parsing fix for percent-encoded `Set-Cookie` values.
 - 📦 **[pnpm/pnpm](https://github.com/pnpm/pnpm)** — package-manager reliability fixes: trusted-publisher provenance checks, non-root `resolutions` warnings, fish shell setup location, and complete global-update summaries.
 - 📚 **[pnpm/pnpm.io](https://github.com/pnpm/pnpm.io)** — docs fixes for version-pinned v11 examples and zsh completion setup.
 - 🕷️ **[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)** — scraper fix: pass `fullPage` option to fire-engine request.
@@ -176,6 +193,9 @@ The pattern is simple: find a real bug, reduce it to a maintainer-sized patch, v
 
 **Agentic developer tools**
 
+- 🌐 **[browser-use/browser-use](https://github.com/browser-use/browser-use)** — browser-agent reliability patches around remote session lifetime, video artifacts, and structured tool-call parsing.
+- 🧰 **[modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)** — runtime dependency and filesystem-tool behavior fixes for official MCP servers.
+- 🧪 **[OpenHands/OpenHands](https://github.com/OpenHands/OpenHands)** — enterprise and repository-search fixes moving through review.
 - 🧠 **[cline/cline](https://github.com/cline/cline)** — VS Code and CLI agent fixes: completed-task resume state after hooks, command approval handling, context overflow detection, TLS opt-out handling, skill-picker render keys, settings/account setup flow, and config-view hook dependencies.
 - 🟣 **[Kilo-Org/kilocode](https://github.com/Kilo-Org/kilocode)** — CLI and VS Code agent fixes across permission docks, diff previews, export dialogs, startup migrations, paste summaries, offline model fetches, reasoning effort options, subagent prompts, autocomplete, and dependency-context filtering.
 - 🍒 **[CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)** — desktop AI client fixes for MCP structured content, cron/local-time tool responses, miniapp URL refresh, CherryIN provider aliasing, and thinking-segment stream handling.
