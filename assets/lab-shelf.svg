@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300" role="img" aria-labelledby="title desc">
+  <title id="title">Builder shelf</title>
+  <desc id="desc">A visual shelf of product and engineering systems: content freshness, agent governance, memory, proof, protocol tooling, and contribution quality gates.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="55%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#052e2b"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="45%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <style>
+      .title { fill: #f8fafc; font: 800 36px Inter, ui-sans-serif, system-ui, sans-serif; }
+      .sub { fill: #cbd5e1; font: 500 17px Inter, ui-sans-serif, system-ui, sans-serif; }
+      .pill { fill: #f8fafc; font: 700 15px Inter, ui-sans-serif, system-ui, sans-serif; }
+      .small { fill: #94a3b8; font: 600 12px Inter, ui-sans-serif, system-ui, sans-serif; letter-spacing: 1px; }
+    </style>
+  </defs>
+
+  <rect width="1100" height="300" rx="28" fill="url(#bg)"/>
+  <circle cx="930" cy="40" r="130" fill="#0ea5e9" opacity="0.12"/>
+  <circle cx="1040" cy="258" r="150" fill="#22c55e" opacity="0.10"/>
+  <path d="M88 198 C220 120 326 245 456 174 C610 90 724 214 842 143 C930 90 984 92 1030 108" fill="none" stroke="url(#line)" stroke-width="5" stroke-linecap="round"/>
+
+  <text x="78" y="72" class="small">PRIVATE LABS + PUBLIC PATCHES</text>
+  <text x="78" y="116" class="title">A shelf of systems for sharper engineering</text>
+  <text x="78" y="150" class="sub">Freshness, contracts, memory, proof, protocol tooling, and review quality gates.</text>
+
+  <g transform="translate(84 206)">
+    <rect width="144" height="44" rx="22" fill="#064e3b" stroke="#34d399"/>
+    <text x="22" y="28" class="pill">ContentPulse</text>
+  </g>
+  <g transform="translate(248 206)">
+    <rect width="126" height="44" rx="22" fill="#0c4a6e" stroke="#38bdf8"/>
+    <text x="25" y="28" class="pill">Simulacra</text>
+  </g>
+  <g transform="translate(394 206)">
+    <rect width="112" height="44" rx="22" fill="#312e81" stroke="#a78bfa"/>
+    <text x="25" y="28" class="pill">Recall</text>
+  </g>
+  <g transform="translate(526 206)">
+    <rect width="122" height="44" rx="22" fill="#713f12" stroke="#f59e0b"/>
+    <text x="26" y="28" class="pill">Proofbox</text>
+  </g>
+  <g transform="translate(668 206)">
+    <rect width="104" height="44" rx="22" fill="#7f1d1d" stroke="#fb7185"/>
+    <text x="28" y="28" class="pill">MCP</text>
+  </g>
+  <g transform="translate(792 206)">
+    <rect width="150" height="44" rx="22" fill="#1e293b" stroke="#94a3b8"/>
+    <text x="25" y="28" class="pill">Quality gates</text>
+  </g>
+</svg>

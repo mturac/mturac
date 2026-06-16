@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="360" viewBox="0 0 1100 360" role="img" aria-labelledby="title desc">
+  <title id="title">June 2026 open source sprint</title>
+  <desc id="desc">A visual summary of recent open source contribution lanes: Playwright merge, Raycast merge streak, OpenDesign review surface, browser-agent reliability, and protocol tooling.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="44%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#fb7185"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <style>
+      .title { fill: #f8fafc; font: 700 42px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .sub { fill: #cbd5e1; font: 500 18px Inter, ui-sans-serif, system-ui, sans-serif; }
+      .kicker { fill: #67e8f9; font: 700 13px Inter, ui-sans-serif, system-ui, sans-serif; letter-spacing: 2px; }
+      .cardTitle { fill: #f8fafc; font: 700 20px Inter, ui-sans-serif, system-ui, sans-serif; }
+      .cardText { fill: #cbd5e1; font: 500 14px Inter, ui-sans-serif, system-ui, sans-serif; }
+      .metric { fill: #ffffff; font: 800 30px Inter, ui-sans-serif, system-ui, sans-serif; }
+      .label { fill: #94a3b8; font: 700 12px Inter, ui-sans-serif, system-ui, sans-serif; letter-spacing: 1.4px; }
+    </style>
+  </defs>
+
+  <rect width="1100" height="360" rx="28" fill="url(#bg)"/>
+  <path d="M0 252 C170 180 240 342 410 268 C590 190 650 80 845 142 C990 188 1025 92 1100 58 L1100 360 L0 360 Z" fill="#312e81" opacity="0.36"/>
+  <path d="M78 94 H402" stroke="url(#accent)" stroke-width="5" stroke-linecap="round"/>
+  <text x="78" y="72" class="kicker">PUBLIC CONTRIBUTION SPRINT</text>
+  <text x="78" y="130" class="title">Small patches. Serious repos.</text>
+  <text x="78" y="162" class="sub">Maintainer-sized fixes moving through merge queues, CI, and review.</text>
+
+  <g transform="translate(748 56)">
+    <rect width="276" height="112" rx="22" fill="#020617" opacity="0.66" filter="url(#softShadow)"/>
+    <text x="28" y="46" class="metric">1st</text>
+    <text x="83" y="43" class="cardTitle">Playwright merge</text>
+    <text x="28" y="76" class="cardText">GitHub annotations kept parseable</text>
+  </g>
+
+  <g transform="translate(78 214)">
+    <rect width="220" height="96" rx="18" fill="#0f172a" opacity="0.82" stroke="#334155"/>
+    <text x="22" y="37" class="label">MERGE STREAK</text>
+    <text x="22" y="66" class="cardTitle">Raycast extensions</text>
+  </g>
+  <g transform="translate(322 214)">
+    <rect width="220" height="96" rx="18" fill="#0f172a" opacity="0.82" stroke="#334155"/>
+    <text x="22" y="37" class="label">DEEP SURFACE</text>
+    <text x="22" y="66" class="cardTitle">OpenDesign</text>
+  </g>
+  <g transform="translate(566 214)">
+    <rect width="220" height="96" rx="18" fill="#0f172a" opacity="0.82" stroke="#334155"/>
+    <text x="22" y="37" class="label">BROWSER AGENTS</text>
+    <text x="22" y="66" class="cardTitle">Reliability PRs</text>
+  </g>
+  <g transform="translate(810 214)">
+    <rect width="220" height="96" rx="18" fill="#0f172a" opacity="0.82" stroke="#334155"/>
+    <text x="22" y="37" class="label">PROTOCOL TOOLS</text>
+    <text x="22" y="66" class="cardTitle">MCP servers</text>
+  </g>
+</svg>

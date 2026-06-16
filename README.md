@@ -11,6 +11,10 @@
   <a href="https://github.com/browser-use/browser-use"><img alt="Browser agents" src="https://img.shields.io/badge/Browser%20agents-in%20review-2563eb?style=for-the-badge"></a>
 </p>
 
+<p align="center">
+  <img alt="June 2026 OSS sprint visual" src="./assets/oss-sprint.svg">
+</p>
+
 I build the bridge between product judgment, engineering execution, and agentic systems that have to survive real production pressure.
 
 Over 15+ years in software, I have led and advised product, engineering, and strategy teams through
@@ -47,7 +51,25 @@ Small patches, serious repositories, real review queues. The point is not volume
 
 Private labs are active too: OSS scouting/factory systems, research automation, and contribution-quality gates that make the public work sharper without turning the profile into a private-link graveyard.
 
-#### Currently shipping
+#### Builder shelf
+
+<p align="center">
+  <img alt="Builder shelf visual" src="./assets/lab-shelf.svg">
+</p>
+
+The public repo shelf has two personalities: practical utilities that solve annoying engineering problems, and agentic systems that make autonomous work less fragile.
+
+| Featured line | Projects | Why it exists |
+|---|---|---|
+| Content freshness | [content-pulse](https://github.com/mturac/content-pulse), [contentpulse-strapi](https://github.com/mturac/contentpulse-strapi), [contentpulse-contentful](https://github.com/mturac/contentpulse-contentful) | Find stale dates, version drift, and neglected content before users do. |
+| Agent governance | [claude-roundtable](https://github.com/mturac/claude-roundtable), [promptguard](https://github.com/mturac/promptguard), [skill-hunter](https://github.com/mturac/skill-hunter) | Make coding agents check contracts, reuse skills, and pass quality gates. |
+| Memory and proof | [recall-mcp](https://github.com/mturac/recall-mcp), [proofbox](https://github.com/mturac/proofbox), [eval-kit](https://github.com/mturac/eval-kit) | Turn vague agent confidence into persistent memory and repeatable checks. |
+| Protocol tooling | [mcpx](https://github.com/mturac/mcpx), [mcp-guard](https://github.com/mturac/mcp-guard), [mcp-scaffold](https://github.com/mturac/mcp-scaffold) | Build, proxy, and harden MCP servers without pretending every tool call is safe. |
+
+<details>
+<summary><b>Open the full public lab shelf</b> · utilities, plugins, guards, agents, and research toys</summary>
+
+<br>
 
 - 🔍 **[content-pulse](https://github.com/mturac/content-pulse)** — Semantic Decay & Freshness Engine for PayloadCMS v3. Detect stale dates and outdated version references before your readers do. 14/14 tests passing.
 - 🔍 **[contentpulse-strapi](https://github.com/mturac/contentpulse-strapi)** — ContentPulse for Strapi v5. Lifecycle hooks + admin widget for content freshness analysis.
@@ -105,12 +127,26 @@ Private labs are active too: OSS scouting/factory systems, research automation, 
 - 🎭 **[multichar-studio](https://github.com/mturac/multichar-studio)** — Local-first multi-character AI scene studio with shared and subjective memory.
 - 🧰 **[awesome-claude-code-toolkit](https://github.com/mturac/awesome-claude-code-toolkit)** — The most comprehensive Claude Code toolkit: 135 agents, 35 curated skills, 42 commands, 176+ plugins, 20 hooks, 15 rules, 7 templates, 14 MCP configs, 26 companion apps, and 52 ecosystem entries.
 
+</details>
+
 #### Academic Papers
 
 - 📄 [OpenArXiv: 20260524.1](https://openarxiv.org/doc/20260524.1) — Research paper on agent systems and formal methods.
 - 📄 [OpenArXiv: 20260524.2](https://openarxiv.org/doc/20260524.2) — Research paper on semantic mathematics for LLM meaning.
 
 #### Writing
+
+| Series | Shape |
+|---|---|
+| **Scale Wars** | Architecture lessons from large-scale product companies. |
+| **Back to Code** | A 15-episode technical novel about recovering engineering craft after the AI illusion. |
+| **AI Agents & LLMs** | Practical essays on agent failure modes, memory, reflection, and trust. |
+| **Software Engineering** | Production stories about tests, delivery pressure, and systems that survive contact with users. |
+
+<details>
+<summary><b>Open the writing archive</b> · LinkedIn, Dev.to series, papers, and essays</summary>
+
+<br>
 
 **LinkedIn**
 - 🗡️ [Çift Yüzlü Katana: Yapay Zeka Dönüşümlerinin Gerçekçi Bir Analizi](https://www.linkedin.com/pulse/%C3%A7ift-y%C3%BCzl%C3%BC-katana-yapay-zeka-d%C3%B6n%C3%BC%C5%9F%C3%BCmlerinin-ger%C3%A7ek%C3%A7i-bir-mehmet-turac-80h7f) — AI transformations realistic analysis. The 5 illusions that compound into expensive, fragile systems.
@@ -166,10 +202,24 @@ Private labs are active too: OSS scouting/factory systems, research automation, 
 - [I built a product in one AI session. Here's the system that made it ship right.](https://dev.to/turacthethinker/i-built-a-product-in-one-ai-session-heres-the-system-that-made-it-ship-right-3mb3)
 - [Remote Work Didn't Break Productivity — It Broke Human Connection](https://dev.to/turacthethinker/remote-work-didnt-break-productivity-it-broke-human-connection-288o)
 
+</details>
+
 #### Currently contributing to
 
 External projects I'm actively shipping PRs into — open, merged, or in review. All public, all linkable.
 The pattern is simple: find a real bug, reduce it to a maintainer-sized patch, validate it, stay through review.
+
+| Contribution lane | Repositories |
+|---|---|
+| Major platform/runtime work | [Playwright](https://github.com/microsoft/playwright), [Ollama](https://github.com/ollama/ollama), [Strapi](https://github.com/strapi/strapi), [Grafana](https://github.com/grafana/grafana), [pnpm](https://github.com/pnpm/pnpm) |
+| Agentic developer tools | [browser-use](https://github.com/browser-use/browser-use), [OpenHands](https://github.com/OpenHands/OpenHands), [cline](https://github.com/cline/cline), [kilocode](https://github.com/Kilo-Org/kilocode), [cherry-studio](https://github.com/CherryHQ/cherry-studio) |
+| Protocol and infrastructure | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers), [envoyproxy/ai-gateway](https://github.com/envoyproxy/ai-gateway), [project-zot/zot](https://github.com/project-zot/zot), [actions/github-script](https://github.com/actions/github-script) |
+| Heavy review surfaces | [nexu-io/open-design](https://github.com/nexu-io/open-design), [raycast/extensions](https://github.com/raycast/extensions), [nexu-io/looper](https://github.com/nexu-io/looper) |
+
+<details>
+<summary><b>Open the full external contribution map</b> · merged, open, and in-review PR surfaces</summary>
+
+<br>
 
 **Major OSS projects**
 
@@ -226,6 +276,8 @@ The pattern is simple: find a real bug, reduce it to a maintainer-sized patch, v
 **Skills distribution**
 
 Authored **`recsys-pipeline-architect`** and shepherded it into ~25 public skill / agent registries spanning the Anglophone, Chinese, and Turkish Claude communities: [vercel-labs/skills](https://github.com/vercel-labs/skills), [wshobson/agents](https://github.com/wshobson/agents), [github/awesome-copilot](https://github.com/github/awesome-copilot), [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates), [karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills), [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills), [ComposioHQ/awesome-codex-skills](https://github.com/ComposioHQ/awesome-codex-skills), [RoggeOhta/awesome-codex-cli](https://github.com/RoggeOhta/awesome-codex-cli), [ikaijua/Awesome-AITools](https://github.com/ikaijua/Awesome-AITools), [Prat011/awesome-llm-skills](https://github.com/Prat011/awesome-llm-skills), [skillmatic-ai/awesome-agent-skills](https://github.com/skillmatic-ai/awesome-agent-skills), [heilcheng/awesome-agent-skills](https://github.com/heilcheng/awesome-agent-skills), [kodustech/awesome-agent-skills](https://github.com/kodustech/awesome-agent-skills), [libukai/awesome-agent-skills](https://github.com/libukai/awesome-agent-skills) (CN), [laolaoshiren/claude-code-skills-zh](https://github.com/laolaoshiren/claude-code-skills-zh) (CN), [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills), [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills), [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills), [rohitg00/awesome-claude-code-toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit), [jqueryscript/awesome-claude-code](https://github.com/jqueryscript/awesome-claude-code), [GetBindu/awesome-claude-code-and-skills](https://github.com/GetBindu/awesome-claude-code-and-skills), [spencerpauly/awesome-cursor-skills](https://github.com/spencerpauly/awesome-cursor-skills), [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice), [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills), [Chat2AnyLLM/awesome-repo-configs](https://github.com/Chat2AnyLLM/awesome-repo-configs), [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills), [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code), [gmh5225/awesome-skills](https://github.com/gmh5225/awesome-skills).
+
+</details>
 
 #### Leadership mode
 
