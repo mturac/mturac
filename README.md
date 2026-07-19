@@ -34,6 +34,19 @@ I like public work that is small enough to review and real enough to matter: a f
 
 Private labs are active too: OSS scouting/factory systems, research automation, and contribution-quality gates that make the public work sharper without turning the profile into a list of private links.
 
+#### Selected OSS proof
+
+The work is public and reviewable. These links show contributions to the repositories; they do not imply employment or affiliation. Counts reflect public GitHub state on 19 July 2026.
+
+| Maintainer surface | Public proof | Status |
+|---|---|---|
+| **Microsoft** | [Playwright #41292](https://github.com/microsoft/playwright/pull/41292), [Playwright #41367](https://github.com/microsoft/playwright/pull/41367), [Agent Governance Toolkit #3299](https://github.com/microsoft/agent-governance-toolkit/pull/3299) | 2 merged · 1 open |
+| **Meta / Facebook** | [ASTRYX #3911](https://github.com/facebook/astryx/pull/3911) | 1 open |
+| **Strapi** | [5 merged PRs](https://github.com/strapi/strapi/pulls?q=is%3Apr+author%3Amturac+is%3Amerged), [3 open PRs](https://github.com/strapi/strapi/pulls?q=is%3Apr+author%3Amturac+is%3Aopen) | 5 merged · 3 open |
+| **ChromeDevTools** | [MCP #2330](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/2330), [MCP #2312](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/2312) | 1 merged · 1 open |
+| **Upstash** | [Context7 #2762](https://github.com/upstash/context7/pull/2762), [Context7 #2920](https://github.com/upstash/context7/pull/2920) | 2 merged |
+| **nexu-io** | [27 merged PRs](https://github.com/search?q=is%3Apr+author%3Amturac+org%3Anexu-io+is%3Amerged&type=pullrequests), [7 open PRs](https://github.com/search?q=is%3Apr+author%3Amturac+org%3Anexu-io+is%3Aopen&type=pullrequests) | 27 merged · 7 open |
+
 #### Builder shelf
 
 <p align="center">
