@@ -36,16 +36,18 @@ Private labs are active too: OSS scouting/factory systems, research automation, 
 
 #### Selected OSS proof
 
-The work is public and reviewable. These links show contributions to the repositories; they do not imply employment or affiliation. Counts reflect public GitHub state on 19 July 2026.
+The work is public and reviewable. Each row links to completed contribution work submitted to the repository; current review and merge state stays on the PR itself. These are contribution links, not employment or affiliation claims.
 
-| Maintainer surface | Public proof | Status |
+| Maintainer surface | Contribution work | Public proof |
 |---|---|---|
-| **Microsoft** | [Playwright #41292](https://github.com/microsoft/playwright/pull/41292), [Playwright #41367](https://github.com/microsoft/playwright/pull/41367), [Agent Governance Toolkit #3299](https://github.com/microsoft/agent-governance-toolkit/pull/3299) | 2 merged · 1 open |
-| **Meta / Facebook** | [ASTRYX #3911](https://github.com/facebook/astryx/pull/3911) | 1 open |
-| **Strapi** | [5 merged PRs](https://github.com/strapi/strapi/pulls?q=is%3Apr+author%3Amturac+is%3Amerged), [3 open PRs](https://github.com/strapi/strapi/pulls?q=is%3Apr+author%3Amturac+is%3Aopen) | 5 merged · 3 open |
-| **ChromeDevTools** | [MCP #2330](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/2330), [MCP #2312](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/2312) | 1 merged · 1 open |
-| **Upstash** | [Context7 #2762](https://github.com/upstash/context7/pull/2762), [Context7 #2920](https://github.com/upstash/context7/pull/2920) | 2 merged |
-| **nexu-io** | [27 merged PRs](https://github.com/search?q=is%3Apr+author%3Amturac+org%3Anexu-io+is%3Amerged&type=pullrequests), [7 open PRs](https://github.com/search?q=is%3Apr+author%3Amturac+org%3Anexu-io+is%3Aopen&type=pullrequests) | 27 merged · 7 open |
+| **Microsoft** | Playwright annotation parsing and matcher extension reliability; governance rule validation | [Playwright #41292](https://github.com/microsoft/playwright/pull/41292), [Playwright #41367](https://github.com/microsoft/playwright/pull/41367), [Agent Governance Toolkit #3299](https://github.com/microsoft/agent-governance-toolkit/pull/3299) |
+| **Meta / Facebook** | ASTRYX theme artwork loading on the themes page | [ASTRYX #3911](https://github.com/facebook/astryx/pull/3911) |
+| **Redis** | Dynamic authentication credential refresh in the Rueidis Go client | [rueidis #1008](https://github.com/redis/rueidis/pull/1008) |
+| **Elastic** | Elasticsearch ESQL metadata and YAML parsing; Kibana reporting/Fleet; Elastic Agent cleanup; elastic-package testing | [Elasticsearch #149151](https://github.com/elastic/elasticsearch/pull/149151), [Elasticsearch #152924](https://github.com/elastic/elasticsearch/pull/152924), [full Elastic PR history](https://github.com/search?q=is%3Apr+author%3Amturac+org%3Aelastic&type=pullrequests) |
+| **Strapi** | Core sessions, API generation, database healthchecks, URL-safe fallbacks, i18n, GraphQL, and admin reliability | [public PR history](https://github.com/search?q=is%3Apr+author%3Amturac+org%3Astrapi&type=pullrequests) |
+| **ChromeDevTools** | MCP memory-leak debugging guidance and screencast frame-rate control | [MCP #2330](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/2330), [MCP #2312](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/2312) |
+| **Upstash** | Context7 Node 18 compatibility and safer GitHub authentication handling | [Context7 #2762](https://github.com/upstash/context7/pull/2762), [Context7 #2920](https://github.com/upstash/context7/pull/2920) |
+| **nexu-io** | Open Design and Looper reliability across daemon, provider, preview, UI, and long-running workflow paths | [public PR history](https://github.com/search?q=is%3Apr+author%3Amturac+org%3Anexu-io&type=pullrequests) |
 
 #### Builder shelf
 
