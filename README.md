@@ -53,7 +53,7 @@ The work is public and reviewable. Each row links to completed contribution work
 #### Grok Bot marketplace
 
 <p align="center">
-  <img alt="Grok Bot daily-life line" src="./assets/grok-bots-shelf.svg">
+  <img alt="Grok Bot daily-life line" src="./assets/grok-bots-shelf.png">
 </p>
 
 Installable [Grok Bots](https://x.ai/bot/marketplace) for messy human evenings — not another B2B desk. Each one has a single job, a ledger, quiet days, and **draft-never-send** walls. Source templates live in [`grokbot-templates`](https://github.com/mturac/grokbot-templates).
