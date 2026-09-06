@@ -49,6 +49,28 @@ The work is public and reviewable. Each row links to completed contribution work
 | **Upstash** | Context7 Node 18 compatibility and safer GitHub authentication handling | [Context7 #2762](https://github.com/upstash/context7/pull/2762), [Context7 #2920](https://github.com/upstash/context7/pull/2920) |
 | **nexu-io** | Open Design and Looper reliability across daemon, provider, preview, UI, and long-running workflow paths | [public PR history](https://github.com/search?q=is%3Apr+author%3Amturac+org%3Anexu-io&type=pullrequests) |
 
+
+#### Grok Bot marketplace
+
+<p align="center">
+  <img alt="Grok Bot daily-life line" src="./assets/grok-bots-shelf.svg">
+</p>
+
+Installable [Grok Bots](https://x.ai/bot/marketplace) for messy human evenings — not another B2B desk. Each one has a single job, a ledger, quiet days, and **draft-never-send** walls. Source templates live in [`grokbot-templates`](https://github.com/mturac/grokbot-templates).
+
+| Bot | What it does | Template |
+|-----|--------------|----------|
+| **Cooloff** | Parks the angry / 2am text on a cool timer; calmer draft; you press send | [33-cooloff.md](https://github.com/mturac/grokbot-templates/blob/main/33-cooloff.md) |
+| **Replydebt** | Triages ghosted personal threads; 1–2 line reopen drafts; clears the shame spiral | [34-replydebt.md](https://github.com/mturac/grokbot-templates/blob/main/34-replydebt.md) |
+| **Settled** | Friend / roommate IOUs after dinner & trips; chill pay-me nudges | [35-settled.md](https://github.com/mturac/grokbot-templates/blob/main/35-settled.md) |
+| **Doomstop** | One honest screen-time line + one weekly swap; reflects, never blocks | [30-doomstop.md](https://github.com/mturac/grokbot-templates/blob/main/30-doomstop.md) |
+
+<p align="center">
+  <a href="https://x.ai/bot/marketplace"><img alt="Grok Bot marketplace" src="https://img.shields.io/badge/Grok%20Bot-marketplace-7c5cff?style=for-the-badge&logo=x&logoColor=white"></a>
+  &nbsp;
+  <a href="https://github.com/mturac/grokbot-templates"><img alt="grokbot-templates" src="https://img.shields.io/badge/templates-grokbot--templates-46e0c0?style=for-the-badge&logo=github&logoColor=white"></a>
+</p>
+
 #### Builder shelf
 
 <p align="center">
