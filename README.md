@@ -66,6 +66,8 @@ Installable [Grok Bots](https://x.ai/bot/marketplace) for messy human evenings â
   <a href="https://x.ai/bot/KcyJHCgCu7nrrPXYxs1b4"><img src="./assets/card-settled.png" alt="Settled" width="160"></a>
   &nbsp;
   <a href="https://x.ai/bot/jf9aSLIL9YSU0ecC6zN6d"><img src="./assets/card-doomstop.png" alt="Doomstop" width="160"></a>
+  &nbsp;
+  <a href="https://x.ai/bot/Uo1B3L6OhucZtpbxhTD2S"><img src="./assets/card-subrotate.png" alt="Subrotate" width="160"></a>
 </p>
 
 | Bot | What it does | Install |
@@ -74,6 +76,7 @@ Installable [Grok Bots](https://x.ai/bot/marketplace) for messy human evenings â
 | **Replydebt** | Triages ghosted personal threads; 1â€“2 line reopen drafts | [Open bot](https://x.ai/bot/bJGTcDqC4fAEdbw2SuZqM) |
 | **Settled** | Friend / roommate IOUs; chill pay-me nudges | [Open bot](https://x.ai/bot/KcyJHCgCu7nrrPXYxs1b4) |
 | **Doomstop** | Honest screen-time line + one weekly swap; never blocks | [Open bot](https://x.ai/bot/jf9aSLIL9YSU0ecC6zN6d) |
+| **Subrotate** | ON/PARKED subscription shelf; cancel/resume drafts, you click | [Open bot](https://x.ai/bot/Uo1B3L6OhucZtpbxhTD2S) |
 | **Weekend Roster** | Taste roster â†’ new stream/book drops â†’ weekend pack (drafts only) | [Open bot](https://x.ai/bot/ZWTGhNVARIZ2NOOKKFP-R) |
 
 <p align="center">
